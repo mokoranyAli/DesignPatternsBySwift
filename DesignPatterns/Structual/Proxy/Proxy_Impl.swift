@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+class InternetProxy : Iproxy {
+   
+    
+    let realURL = RealInternet()
+    let preventedURLs = ["facebook", "twitter","instagram"]
+    
+    
+    func connectToURL(url: String) {
+        if preventedURLs.contains(url) {
+            // show alert .. invalid to pass
+        }
+        
+        else {
+            realURL.connectToURL(url: url)
+        }
+       }
+}

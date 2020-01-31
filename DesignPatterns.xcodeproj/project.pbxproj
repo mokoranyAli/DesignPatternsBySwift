@@ -37,6 +37,13 @@
 		87F5FB6D23E461B6001903F6 /* EnglishAdaptee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB6C23E461B6001903F6 /* EnglishAdaptee.swift */; };
 		87F5FB6F23E46550001903F6 /* TranslatorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB6E23E46550001903F6 /* TranslatorAdapter.swift */; };
 		87F5FB7123E46D5F001903F6 /* AdapterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB7023E46D5F001903F6 /* AdapterClient.swift */; };
+		87F5FB7623E4808B001903F6 /* CommandDescription in Resources */ = {isa = PBXBuildFile; fileRef = 87F5FB7523E4808B001903F6 /* CommandDescription */; };
+		87F5FB7823E481C5001903F6 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB7723E481C5001903F6 /* Command.swift */; };
+		87F5FB7A23E4820E001903F6 /* PlayReciever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB7923E4820E001903F6 /* PlayReciever.swift */; };
+		87F5FB7C23E482C8001903F6 /* LongPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB7B23E482C8001903F6 /* LongPass.swift */; };
+		87F5FB7E23E483FD001903F6 /* Tackling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB7D23E483FD001903F6 /* Tackling.swift */; };
+		87F5FB8023E48498001903F6 /* JoystickInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB7F23E48498001903F6 /* JoystickInvoker.swift */; };
+		87F5FB8223E48596001903F6 /* CommandClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB8123E48596001903F6 /* CommandClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +100,13 @@
 		87F5FB6C23E461B6001903F6 /* EnglishAdaptee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishAdaptee.swift; sourceTree = "<group>"; };
 		87F5FB6E23E46550001903F6 /* TranslatorAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorAdapter.swift; sourceTree = "<group>"; };
 		87F5FB7023E46D5F001903F6 /* AdapterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterClient.swift; sourceTree = "<group>"; };
+		87F5FB7523E4808B001903F6 /* CommandDescription */ = {isa = PBXFileReference; lastKnownFileType = text; path = CommandDescription; sourceTree = "<group>"; };
+		87F5FB7723E481C5001903F6 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		87F5FB7923E4820E001903F6 /* PlayReciever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayReciever.swift; sourceTree = "<group>"; };
+		87F5FB7B23E482C8001903F6 /* LongPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPass.swift; sourceTree = "<group>"; };
+		87F5FB7D23E483FD001903F6 /* Tackling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tackling.swift; sourceTree = "<group>"; };
+		87F5FB7F23E48498001903F6 /* JoystickInvoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickInvoker.swift; sourceTree = "<group>"; };
+		87F5FB8123E48596001903F6 /* CommandClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +137,7 @@
 		870CB13023E0A6770022B7B4 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				87F5FB7223E48035001903F6 /* Command */,
 				87F5FB5023E30D93001903F6 /* Strategy */,
 			);
 			path = Behavioral;
@@ -250,6 +265,20 @@
 			path = Adapter;
 			sourceTree = "<group>";
 		};
+		87F5FB7223E48035001903F6 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				87F5FB7523E4808B001903F6 /* CommandDescription */,
+				87F5FB7723E481C5001903F6 /* Command.swift */,
+				87F5FB7923E4820E001903F6 /* PlayReciever.swift */,
+				87F5FB7B23E482C8001903F6 /* LongPass.swift */,
+				87F5FB7D23E483FD001903F6 /* Tackling.swift */,
+				87F5FB7F23E48498001903F6 /* JoystickInvoker.swift */,
+				87F5FB8123E48596001903F6 /* CommandClient.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -359,6 +388,7 @@
 				874C95C423DEAFEA0043CA08 /* Main.storyboard in Resources */,
 				87F5FB6823E45C68001903F6 /* AdapterDescription in Resources */,
 				874C95F123DEB12C0043CA08 /* Description in Resources */,
+				87F5FB7623E4808B001903F6 /* CommandDescription in Resources */,
 				87F5FB5D23E31901001903F6 /* DescriptionProxy in Resources */,
 				87F5FB5223E30DB2001903F6 /* DescriptionStrategy in Resources */,
 			);
@@ -385,15 +415,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F5FB7C23E482C8001903F6 /* LongPass.swift in Sources */,
 				87F5FB6123E31AA4001903F6 /* Success.swift in Sources */,
 				874C95C123DEAFEA0043CA08 /* ViewController.swift in Sources */,
 				874C95F523DEB2460043CA08 /* Abstract Factory.swift in Sources */,
 				874C95BD23DEAFEA0043CA08 /* AppDelegate.swift in Sources */,
+				87F5FB8223E48596001903F6 /* CommandClient.swift in Sources */,
 				87F5FB6D23E461B6001903F6 /* EnglishAdaptee.swift in Sources */,
 				87F5FB6F23E46550001903F6 /* TranslatorAdapter.swift in Sources */,
 				874C95F723DEB2890043CA08 /* Concrete Factory.swift in Sources */,
 				87F5FB5423E30E01001903F6 /* IStrategy.swift in Sources */,
+				87F5FB7A23E4820E001903F6 /* PlayReciever.swift in Sources */,
+				87F5FB8023E48498001903F6 /* JoystickInvoker.swift in Sources */,
 				87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */,
+				87F5FB7823E481C5001903F6 /* Command.swift in Sources */,
 				87F5FB6523E31D6A001903F6 /* ClientProxy.swift in Sources */,
 				87F5FB5A23E3130A001903F6 /* ClientStrategy.swift in Sources */,
 				874C95EF23DEB0FB0043CA08 /* Abstract Proudcts.swift in Sources */,
@@ -404,6 +439,7 @@
 				874C95F923DEB2F10043CA08 /* GUIBuilder.swift in Sources */,
 				87F5FB6323E31B2E001903F6 /* Proxy_Impl.swift in Sources */,
 				87F5FB6B23E46078001903F6 /* RussianTarget.swift in Sources */,
+				87F5FB7E23E483FD001903F6 /* Tackling.swift in Sources */,
 				874C95FB23DEB3520043CA08 /* Client.swift in Sources */,
 				87F5FB7123E46D5F001903F6 /* AdapterClient.swift in Sources */,
 			);
