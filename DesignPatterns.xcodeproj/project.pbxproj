@@ -15,6 +15,28 @@
 		874C95C923DEAFEE0043CA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874C95C723DEAFEE0043CA08 /* LaunchScreen.storyboard */; };
 		874C95D423DEAFEE0043CA08 /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95D323DEAFEE0043CA08 /* DesignPatternsTests.swift */; };
 		874C95DF23DEAFEE0043CA08 /* DesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95DE23DEAFEE0043CA08 /* DesignPatternsUITests.swift */; };
+		874C95EF23DEB0FB0043CA08 /* Abstract Proudcts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95EE23DEB0FB0043CA08 /* Abstract Proudcts.swift */; };
+		874C95F123DEB12C0043CA08 /* Description in Resources */ = {isa = PBXBuildFile; fileRef = 874C95F023DEB12C0043CA08 /* Description */; };
+		874C95F323DEB1C00043CA08 /* Concret Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95F223DEB1BF0043CA08 /* Concret Products.swift */; };
+		874C95F523DEB2460043CA08 /* Abstract Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95F423DEB2460043CA08 /* Abstract Factory.swift */; };
+		874C95F723DEB2890043CA08 /* Concrete Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95F623DEB2890043CA08 /* Concrete Factory.swift */; };
+		874C95F923DEB2F10043CA08 /* GUIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95F823DEB2F10043CA08 /* GUIBuilder.swift */; };
+		874C95FB23DEB3520043CA08 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95FA23DEB3520043CA08 /* Client.swift */; };
+		87F5FB5223E30DB2001903F6 /* DescriptionStrategy in Resources */ = {isa = PBXBuildFile; fileRef = 87F5FB5123E30DB2001903F6 /* DescriptionStrategy */; };
+		87F5FB5423E30E01001903F6 /* IStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB5323E30E01001903F6 /* IStrategy.swift */; };
+		87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB5523E30E7C001903F6 /* Strategy_Impl.swift */; };
+		87F5FB5823E30F8A001903F6 /* Shopping Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB5723E30F8A001903F6 /* Shopping Card.swift */; };
+		87F5FB5A23E3130A001903F6 /* ClientStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB5923E3130A001903F6 /* ClientStrategy.swift */; };
+		87F5FB5D23E31901001903F6 /* DescriptionProxy in Resources */ = {isa = PBXBuildFile; fileRef = 87F5FB5C23E31901001903F6 /* DescriptionProxy */; };
+		87F5FB5F23E31A27001903F6 /* IProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB5E23E31A27001903F6 /* IProxy.swift */; };
+		87F5FB6123E31AA4001903F6 /* Success.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB6023E31AA4001903F6 /* Success.swift */; };
+		87F5FB6323E31B2E001903F6 /* Proxy_Impl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB6223E31B2E001903F6 /* Proxy_Impl.swift */; };
+		87F5FB6523E31D6A001903F6 /* ClientProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB6423E31D6A001903F6 /* ClientProxy.swift */; };
+		87F5FB6823E45C68001903F6 /* AdapterDescription in Resources */ = {isa = PBXBuildFile; fileRef = 87F5FB6723E45C68001903F6 /* AdapterDescription */; };
+		87F5FB6B23E46078001903F6 /* RussianTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB6A23E46078001903F6 /* RussianTarget.swift */; };
+		87F5FB6D23E461B6001903F6 /* EnglishAdaptee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB6C23E461B6001903F6 /* EnglishAdaptee.swift */; };
+		87F5FB6F23E46550001903F6 /* TranslatorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB6E23E46550001903F6 /* TranslatorAdapter.swift */; };
+		87F5FB7123E46D5F001903F6 /* AdapterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB7023E46D5F001903F6 /* AdapterClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +71,28 @@
 		874C95DA23DEAFEE0043CA08 /* DesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		874C95DE23DEAFEE0043CA08 /* DesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITests.swift; sourceTree = "<group>"; };
 		874C95E023DEAFEE0043CA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874C95EE23DEB0FB0043CA08 /* Abstract Proudcts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Abstract Proudcts.swift"; sourceTree = "<group>"; };
+		874C95F023DEB12C0043CA08 /* Description */ = {isa = PBXFileReference; lastKnownFileType = text; path = Description; sourceTree = "<group>"; };
+		874C95F223DEB1BF0043CA08 /* Concret Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Concret Products.swift"; sourceTree = "<group>"; };
+		874C95F423DEB2460043CA08 /* Abstract Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Abstract Factory.swift"; sourceTree = "<group>"; };
+		874C95F623DEB2890043CA08 /* Concrete Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Concrete Factory.swift"; sourceTree = "<group>"; };
+		874C95F823DEB2F10043CA08 /* GUIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUIBuilder.swift; sourceTree = "<group>"; };
+		874C95FA23DEB3520043CA08 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		87F5FB5123E30DB2001903F6 /* DescriptionStrategy */ = {isa = PBXFileReference; lastKnownFileType = text; path = DescriptionStrategy; sourceTree = "<group>"; };
+		87F5FB5323E30E01001903F6 /* IStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IStrategy.swift; sourceTree = "<group>"; };
+		87F5FB5523E30E7C001903F6 /* Strategy_Impl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy_Impl.swift; sourceTree = "<group>"; };
+		87F5FB5723E30F8A001903F6 /* Shopping Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shopping Card.swift"; sourceTree = "<group>"; };
+		87F5FB5923E3130A001903F6 /* ClientStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientStrategy.swift; sourceTree = "<group>"; };
+		87F5FB5C23E31901001903F6 /* DescriptionProxy */ = {isa = PBXFileReference; lastKnownFileType = text; path = DescriptionProxy; sourceTree = "<group>"; };
+		87F5FB5E23E31A27001903F6 /* IProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IProxy.swift; sourceTree = "<group>"; };
+		87F5FB6023E31AA4001903F6 /* Success.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Success.swift; sourceTree = "<group>"; };
+		87F5FB6223E31B2E001903F6 /* Proxy_Impl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy_Impl.swift; sourceTree = "<group>"; };
+		87F5FB6423E31D6A001903F6 /* ClientProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProxy.swift; sourceTree = "<group>"; };
+		87F5FB6723E45C68001903F6 /* AdapterDescription */ = {isa = PBXFileReference; lastKnownFileType = text; path = AdapterDescription; sourceTree = "<group>"; };
+		87F5FB6A23E46078001903F6 /* RussianTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianTarget.swift; sourceTree = "<group>"; };
+		87F5FB6C23E461B6001903F6 /* EnglishAdaptee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishAdaptee.swift; sourceTree = "<group>"; };
+		87F5FB6E23E46550001903F6 /* TranslatorAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorAdapter.swift; sourceTree = "<group>"; };
+		87F5FB7023E46D5F001903F6 /* AdapterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +120,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		870CB13023E0A6770022B7B4 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				87F5FB5023E30D93001903F6 /* Strategy */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		870CB13123E0A6820022B7B4 /* Structual */ = {
+			isa = PBXGroup;
+			children = (
+				87F5FB6623E45C51001903F6 /* Adapter */,
+				87F5FB5B23E317E3001903F6 /* Proxy */,
+			);
+			path = Structual;
+			sourceTree = "<group>";
+		};
 		874C95B023DEAFEA0043CA08 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +160,9 @@
 		874C95BB23DEAFEA0043CA08 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				870CB13123E0A6820022B7B4 /* Structual */,
+				870CB13023E0A6770022B7B4 /* Behavioral */,
+				874C95EC23DEAFFA0043CA08 /* Cerational */,
 				874C95BC23DEAFEA0043CA08 /* AppDelegate.swift */,
 				874C95BE23DEAFEA0043CA08 /* SceneDelegate.swift */,
 				874C95C023DEAFEA0043CA08 /* ViewController.swift */,
@@ -126,6 +190,64 @@
 				874C95E023DEAFEE0043CA08 /* Info.plist */,
 			);
 			path = DesignPatternsUITests;
+			sourceTree = "<group>";
+		};
+		874C95EC23DEAFFA0043CA08 /* Cerational */ = {
+			isa = PBXGroup;
+			children = (
+				874C95ED23DEB04E0043CA08 /* AbstraceFactory */,
+			);
+			path = Cerational;
+			sourceTree = "<group>";
+		};
+		874C95ED23DEB04E0043CA08 /* AbstraceFactory */ = {
+			isa = PBXGroup;
+			children = (
+				874C95EE23DEB0FB0043CA08 /* Abstract Proudcts.swift */,
+				874C95F023DEB12C0043CA08 /* Description */,
+				874C95F223DEB1BF0043CA08 /* Concret Products.swift */,
+				874C95F423DEB2460043CA08 /* Abstract Factory.swift */,
+				874C95F623DEB2890043CA08 /* Concrete Factory.swift */,
+				874C95F823DEB2F10043CA08 /* GUIBuilder.swift */,
+				874C95FA23DEB3520043CA08 /* Client.swift */,
+			);
+			path = AbstraceFactory;
+			sourceTree = "<group>";
+		};
+		87F5FB5023E30D93001903F6 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				87F5FB5123E30DB2001903F6 /* DescriptionStrategy */,
+				87F5FB5323E30E01001903F6 /* IStrategy.swift */,
+				87F5FB5523E30E7C001903F6 /* Strategy_Impl.swift */,
+				87F5FB5723E30F8A001903F6 /* Shopping Card.swift */,
+				87F5FB5923E3130A001903F6 /* ClientStrategy.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		87F5FB5B23E317E3001903F6 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				87F5FB5C23E31901001903F6 /* DescriptionProxy */,
+				87F5FB5E23E31A27001903F6 /* IProxy.swift */,
+				87F5FB6023E31AA4001903F6 /* Success.swift */,
+				87F5FB6223E31B2E001903F6 /* Proxy_Impl.swift */,
+				87F5FB6423E31D6A001903F6 /* ClientProxy.swift */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		87F5FB6623E45C51001903F6 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				87F5FB6723E45C68001903F6 /* AdapterDescription */,
+				87F5FB6A23E46078001903F6 /* RussianTarget.swift */,
+				87F5FB6C23E461B6001903F6 /* EnglishAdaptee.swift */,
+				87F5FB6E23E46550001903F6 /* TranslatorAdapter.swift */,
+				87F5FB7023E46D5F001903F6 /* AdapterClient.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +357,10 @@
 				874C95C923DEAFEE0043CA08 /* LaunchScreen.storyboard in Resources */,
 				874C95C623DEAFEE0043CA08 /* Assets.xcassets in Resources */,
 				874C95C423DEAFEA0043CA08 /* Main.storyboard in Resources */,
+				87F5FB6823E45C68001903F6 /* AdapterDescription in Resources */,
+				874C95F123DEB12C0043CA08 /* Description in Resources */,
+				87F5FB5D23E31901001903F6 /* DescriptionProxy in Resources */,
+				87F5FB5223E30DB2001903F6 /* DescriptionStrategy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +385,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F5FB6123E31AA4001903F6 /* Success.swift in Sources */,
 				874C95C123DEAFEA0043CA08 /* ViewController.swift in Sources */,
+				874C95F523DEB2460043CA08 /* Abstract Factory.swift in Sources */,
 				874C95BD23DEAFEA0043CA08 /* AppDelegate.swift in Sources */,
+				87F5FB6D23E461B6001903F6 /* EnglishAdaptee.swift in Sources */,
+				87F5FB6F23E46550001903F6 /* TranslatorAdapter.swift in Sources */,
+				874C95F723DEB2890043CA08 /* Concrete Factory.swift in Sources */,
+				87F5FB5423E30E01001903F6 /* IStrategy.swift in Sources */,
+				87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */,
+				87F5FB6523E31D6A001903F6 /* ClientProxy.swift in Sources */,
+				87F5FB5A23E3130A001903F6 /* ClientStrategy.swift in Sources */,
+				874C95EF23DEB0FB0043CA08 /* Abstract Proudcts.swift in Sources */,
+				87F5FB5F23E31A27001903F6 /* IProxy.swift in Sources */,
 				874C95BF23DEAFEA0043CA08 /* SceneDelegate.swift in Sources */,
+				87F5FB5823E30F8A001903F6 /* Shopping Card.swift in Sources */,
+				874C95F323DEB1C00043CA08 /* Concret Products.swift in Sources */,
+				874C95F923DEB2F10043CA08 /* GUIBuilder.swift in Sources */,
+				87F5FB6323E31B2E001903F6 /* Proxy_Impl.swift in Sources */,
+				87F5FB6B23E46078001903F6 /* RussianTarget.swift in Sources */,
+				874C95FB23DEB3520043CA08 /* Client.swift in Sources */,
+				87F5FB7123E46D5F001903F6 /* AdapterClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

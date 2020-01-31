@@ -9,12 +9,34 @@
 import Foundation
 
 
-public class mainClass {
+public class mainClass
+{
+    let shoppingCardObj = ShoppingCard(newStrategy: nil)
     
-    let shoppingCardObj = ShoppingCard()
-    func strategyExample (){
+    func strategyExample ()
+    {
+        shoppingCardObj.customerName = "mohammed korany"
+        shoppingCardObj.billAmount = 1000
+        shoppingCardObj.todayDate = "sat"
         
+        switch shoppingCardObj.todayDate {
+        case "sat":
+            shoppingCardObj.currentStrategy	= HighDiscountStrategy()
+            break
+        case "sun":
+            shoppingCardObj.currentStrategy = LowDiscountStrategy ()
+            break
+            
+        case "tues":
+            shoppingCardObj.currentStrategy = NoDescountStrategy()
+            break
+            
+        default  :
+            shoppingCardObj.currentStrategy = NoDescountStrategy()
+            
+        }
         
     }
     
 }
+

@@ -1,3 +1,4 @@
+
 //
 //  Shopping Card.swift
 //  DesignPatterns
@@ -7,3 +8,28 @@
 //
 
 import Foundation
+
+
+public class ShoppingCard {
+    
+    var customerName:String?
+    var billAmount:Int?
+    var todayDate:String?
+      
+    var currentStrategy:IStrategy?
+    init(newStrategy:IStrategy?) {
+        currentStrategy = newStrategy
+    }
+    
+    func getFinalBill() -> Int {
+        guard let billAmountTemp = self.billAmount else {
+            return 0
+        }
+        guard let finalBillAmount = currentStrategy?.getFinalBill(billAmount: billAmountTemp) else {
+            return 0
+        }
+        return finalBillAmount
+        
+    }
+    
+}

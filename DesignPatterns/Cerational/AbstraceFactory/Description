@@ -1,0 +1,5 @@
+
+
+Abstract Factory provide an interface for creating families of related or dependent objects without
+ specifying their concrete classes. A factory could manufacture different types of products.
+ Abstract factory create different type of factories.

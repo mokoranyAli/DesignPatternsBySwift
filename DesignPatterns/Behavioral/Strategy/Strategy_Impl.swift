@@ -7,3 +7,26 @@
 //
 
 import Foundation
+
+public class HighDiscountStrategy : IStrategy {
+    public func getFinalBill(billAmount: Int) -> Int {
+        return billAmount * Int(0.5)
+    }
+}
+
+
+
+
+public class LowDiscountStrategy : IStrategy {
+    public func getFinalBill(billAmount: Int) -> Int {
+        return billAmount * Int(0.2)
+    }
+}
+
+
+
+public class NoDescountStrategy : IStrategy {
+    public func getFinalBill(billAmount: Int) -> Int {
+       return billAmount
+    }
+}

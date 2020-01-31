@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class mainProxy {
+    
+    let iproxy:Iproxy = InternetProxy()
+    
+    
+    func checkProxy(){ 
+        iproxy.connectToURL(url: "facebook")
+    }
+    	
+}

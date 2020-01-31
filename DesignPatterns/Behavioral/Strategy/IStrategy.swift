@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+public protocol IStrategy {
+    
+    func getFinalBill(billAmount:Int) -> Int
+}

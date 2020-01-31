@@ -1,0 +1,4 @@
+
+Adapter is a structural design pattern that allows objects with incompatible interfaces to work together. In other words, it transforms the interface of an object to adapt it to a different object.
+
+So adapter can transform one thing into another, sometimes it's called wrapper, because it wraps the object and provides a new interface around it

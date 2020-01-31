@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+public protocol Iproxy {
+    
+    func connectToURL (url:String)
+    	
+}
