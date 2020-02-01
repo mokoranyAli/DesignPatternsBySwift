@@ -1,0 +1,2 @@
+
+Chain of responsibility decouples a sender of a request and a receiver and it gives more than one object a chance to handle the request.
