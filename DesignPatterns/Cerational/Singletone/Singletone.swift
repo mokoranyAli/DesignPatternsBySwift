@@ -8,15 +8,23 @@
 
 import Foundation
 
-class Singletone {
+class Singleton {
     
-    static let shared = Singletone()
+    static let shared = Singleton()
+    
+
+//        static let shared: Singleton = {
+//            let instance = Singleton()
+//            // Setup code
+//            return instance
+//        }()
+//    }
     
     private init (){}
     
     func doSomething() {
         
-        print("do somthing in singletone")
+        print("do somthing in singleton")
         
     }
     

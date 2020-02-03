@@ -22,6 +22,17 @@
 		874C95F723DEB2890043CA08 /* Concrete Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95F623DEB2890043CA08 /* Concrete Factory.swift */; };
 		874C95F923DEB2F10043CA08 /* GUIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95F823DEB2F10043CA08 /* GUIBuilder.swift */; };
 		874C95FB23DEB3520043CA08 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95FA23DEB3520043CA08 /* Client.swift */; };
+		8751007B23E82BA80096498B /* Amplifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751007A23E82BA80096498B /* Amplifier.swift */; };
+		8751007D23E82BC20096498B /* CdPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751007C23E82BC20096498B /* CdPlayer.swift */; };
+		8751007F23E82BDC0096498B /* DvdPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751007E23E82BDC0096498B /* DvdPlayer.swift */; };
+		8751008123E82C0C0096498B /* HomeTheaterFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008023E82C0C0096498B /* HomeTheaterFacade.swift */; };
+		8751008323E82C2C0096498B /* PopcornPopper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008223E82C2C0096498B /* PopcornPopper.swift */; };
+		8751008523E82C430096498B /* Projector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008423E82C430096498B /* Projector.swift */; };
+		8751008723E82C5F0096498B /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008623E82C5F0096498B /* Screen.swift */; };
+		8751008923E82C750096498B /* TheaterLights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008823E82C750096498B /* TheaterLights.swift */; };
+		8751008B23E82C8B0096498B /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008A23E82C8B0096498B /* Tuner.swift */; };
+		8751008E23E82E3F0096498B /* EntryPointFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008D23E82E3F0096498B /* EntryPointFacade.swift */; };
+		8751009023E82F9A0096498B /* DiscribeFacade in Resources */ = {isa = PBXBuildFile; fileRef = 8751008F23E82F9A0096498B /* DiscribeFacade */; };
 		87DBF67023E81F68003C899C /* Singletone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBF66F23E81F68003C899C /* Singletone.swift */; };
 		87DBF67223E81FEE003C899C /* DeiscripSingletone in Resources */ = {isa = PBXBuildFile; fileRef = 87DBF67123E81FEE003C899C /* DeiscripSingletone */; };
 		87DBF67423E82082003C899C /* SingletoneClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBF67323E82082003C899C /* SingletoneClient.swift */; };
@@ -97,6 +108,17 @@
 		874C95F623DEB2890043CA08 /* Concrete Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Concrete Factory.swift"; sourceTree = "<group>"; };
 		874C95F823DEB2F10043CA08 /* GUIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUIBuilder.swift; sourceTree = "<group>"; };
 		874C95FA23DEB3520043CA08 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		8751007A23E82BA80096498B /* Amplifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplifier.swift; sourceTree = "<group>"; };
+		8751007C23E82BC20096498B /* CdPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CdPlayer.swift; sourceTree = "<group>"; };
+		8751007E23E82BDC0096498B /* DvdPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvdPlayer.swift; sourceTree = "<group>"; };
+		8751008023E82C0C0096498B /* HomeTheaterFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTheaterFacade.swift; sourceTree = "<group>"; };
+		8751008223E82C2C0096498B /* PopcornPopper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornPopper.swift; sourceTree = "<group>"; };
+		8751008423E82C430096498B /* Projector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projector.swift; sourceTree = "<group>"; };
+		8751008623E82C5F0096498B /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		8751008823E82C750096498B /* TheaterLights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterLights.swift; sourceTree = "<group>"; };
+		8751008A23E82C8B0096498B /* Tuner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
+		8751008D23E82E3F0096498B /* EntryPointFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPointFacade.swift; sourceTree = "<group>"; };
+		8751008F23E82F9A0096498B /* DiscribeFacade */ = {isa = PBXFileReference; lastKnownFileType = text; path = DiscribeFacade; sourceTree = "<group>"; };
 		87DBF66F23E81F68003C899C /* Singletone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singletone.swift; sourceTree = "<group>"; };
 		87DBF67123E81FEE003C899C /* DeiscripSingletone */ = {isa = PBXFileReference; lastKnownFileType = text; path = DeiscripSingletone; sourceTree = "<group>"; };
 		87DBF67323E82082003C899C /* SingletoneClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletoneClient.swift; sourceTree = "<group>"; };
@@ -171,6 +193,7 @@
 		870CB13123E0A6820022B7B4 /* Structual */ = {
 			isa = PBXGroup;
 			children = (
+				8751007923E82B7B0096498B /* Facade */,
 				87F5FB6623E45C51001903F6 /* Adapter */,
 				87F5FB5B23E317E3001903F6 /* Proxy */,
 			);
@@ -253,6 +276,32 @@
 				874C95FA23DEB3520043CA08 /* Client.swift */,
 			);
 			path = AbstraceFactory;
+			sourceTree = "<group>";
+		};
+		8751007923E82B7B0096498B /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				8751008C23E82DAB0096498B /* Subsystems */,
+				8751008023E82C0C0096498B /* HomeTheaterFacade.swift */,
+				8751008D23E82E3F0096498B /* EntryPointFacade.swift */,
+				8751008F23E82F9A0096498B /* DiscribeFacade */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		8751008C23E82DAB0096498B /* Subsystems */ = {
+			isa = PBXGroup;
+			children = (
+				8751007A23E82BA80096498B /* Amplifier.swift */,
+				8751007C23E82BC20096498B /* CdPlayer.swift */,
+				8751007E23E82BDC0096498B /* DvdPlayer.swift */,
+				8751008223E82C2C0096498B /* PopcornPopper.swift */,
+				8751008423E82C430096498B /* Projector.swift */,
+				8751008623E82C5F0096498B /* Screen.swift */,
+				8751008823E82C750096498B /* TheaterLights.swift */,
+				8751008A23E82C8B0096498B /* Tuner.swift */,
+			);
+			path = Subsystems;
 			sourceTree = "<group>";
 		};
 		87DBF66E23E81F3F003C899C /* Singletone */ = {
@@ -435,6 +484,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8751009023E82F9A0096498B /* DiscribeFacade in Resources */,
 				874C95C923DEAFEE0043CA08 /* LaunchScreen.storyboard in Resources */,
 				874C95C623DEAFEE0043CA08 /* Assets.xcassets in Resources */,
 				87F5FB8723E58786001903F6 /* DiscriptionCoR in Resources */,
@@ -471,20 +521,27 @@
 			files = (
 				87F5FB7C23E482C8001903F6 /* LongPass.swift in Sources */,
 				87F5FB6123E31AA4001903F6 /* Success.swift in Sources */,
+				8751008923E82C750096498B /* TheaterLights.swift in Sources */,
 				87F5FB8D23E58992001903F6 /* AddHandler.swift in Sources */,
+				8751008523E82C430096498B /* Projector.swift in Sources */,
 				874C95C123DEAFEA0043CA08 /* ViewController.swift in Sources */,
 				874C95F523DEB2460043CA08 /* Abstract Factory.swift in Sources */,
 				874C95BD23DEAFEA0043CA08 /* AppDelegate.swift in Sources */,
 				87F5FB8223E48596001903F6 /* CommandClient.swift in Sources */,
 				87F5FB8B23E58971001903F6 /* Request.swift in Sources */,
 				87F5FB6D23E461B6001903F6 /* EnglishAdaptee.swift in Sources */,
+				8751008123E82C0C0096498B /* HomeTheaterFacade.swift in Sources */,
 				87F5FB6F23E46550001903F6 /* TranslatorAdapter.swift in Sources */,
 				874C95F723DEB2890043CA08 /* Concrete Factory.swift in Sources */,
 				87F5FB5423E30E01001903F6 /* IStrategy.swift in Sources */,
 				87F5FB9123E58EA3001903F6 /* DivHandler.swift in Sources */,
+				8751008723E82C5F0096498B /* Screen.swift in Sources */,
+				8751007F23E82BDC0096498B /* DvdPlayer.swift in Sources */,
+				8751007B23E82BA80096498B /* Amplifier.swift in Sources */,
 				87F5FB7A23E4820E001903F6 /* PlayReciever.swift in Sources */,
 				87F5FB8023E48498001903F6 /* JoystickInvoker.swift in Sources */,
 				87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */,
+				8751008323E82C2C0096498B /* PopcornPopper.swift in Sources */,
 				87DBF67423E82082003C899C /* SingletoneClient.swift in Sources */,
 				87F5FB7823E481C5001903F6 /* Command.swift in Sources */,
 				87F5FB6523E31D6A001903F6 /* ClientProxy.swift in Sources */,
@@ -498,7 +555,9 @@
 				87F5FB6323E31B2E001903F6 /* Proxy_Impl.swift in Sources */,
 				87F5FB6B23E46078001903F6 /* RussianTarget.swift in Sources */,
 				87F5FB8F23E58E5A001903F6 /* SubHandler.swift in Sources */,
+				8751008B23E82C8B0096498B /* Tuner.swift in Sources */,
 				87F5FB9723E59147001903F6 /* ClientCoR.swift in Sources */,
+				8751007D23E82BC20096498B /* CdPlayer.swift in Sources */,
 				87F5FB8923E58926001903F6 /* MathHandler.swift in Sources */,
 				87F5FB7E23E483FD001903F6 /* Tackling.swift in Sources */,
 				87DBF67023E81F68003C899C /* Singletone.swift in Sources */,
@@ -506,6 +565,7 @@
 				874C95FB23DEB3520043CA08 /* Client.swift in Sources */,
 				87F5FB7123E46D5F001903F6 /* AdapterClient.swift in Sources */,
 				87F5FB9323E58EED001903F6 /* MulHandler.swift in Sources */,
+				8751008E23E82E3F0096498B /* EntryPointFacade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

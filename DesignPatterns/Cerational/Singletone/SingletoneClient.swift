@@ -9,12 +9,12 @@
 import Foundation
 
 
-class MainSingleTone {
+class MainSingleTon {
     
-    let singletoneObject = Singletone.shared
+    let singletonObject = Singleton.shared
     
     func apply (){
         
-        singletoneObject.doSomething()
+        singletonObject.doSomething()
     }
 }

@@ -1,2 +1,30 @@
 	
 Singletons are objects that should only ever be created once, then shared everywhere they need to be used. They are common on Apple’s platforms: FileManager, UserDefaults, UIApplication, and UIAccelerometer are all mostly used through their singleton implementations.
+
+
+
+//The singleton pattern ensures only one instance of a class is instantiated for the lifetime of the routine or the application.
+
+
+============
+SINGLETON IS BAD SOLUTION
+============
+
+The many reasons why singletons are a terrible solution
+While singletons are a quick solution, they are a dirty trick that many consider being an anti-pattern. If you search for “singleton anti-pattern” on Google, you will find many results like this one.
+
+So, let’s look at the many reasons why singletons are a weak solution.
+
+Singletons provide a globally mutable shared state. Ironically, the definition of singleton is one of the reasons why singletons are bad. The example above shows that we need a way to access any shared resource. But such access should be limited only to the parts in an app’s architecture that need it. The global accessibility of singletons makes shared resources accessible from anywhere, especially from code that should not have any access. Even value types like Swift structures and enumerations can access a singleton, which is a bad practice. When any part of an app can access or change the global state, you get weird and hard to fix bugs.
+Singletons encourage code with unclear separation. One of the fundamental principles of good software development is separation of concerns. Singletons make access to shared resources a widespread concern across many objects. When a concern is spread too wide, it’s hard to keep track of it when specifications change and code needs to be updated. This leads to inconsistencies in your code base that can lead to severe problems like data loss or corruption.
+The assumption that there will always be only one instance of a singleton is often broken. This change leads to significant refactoring of all code that relies on a singleton. Take, for example, the StorageController we designed above. In the future, we might need to have different instances of that object to handle different locations in the file system or different storage solutions. Core Data, for example, is usually used with only one managed context, but also supports multiple ones.
+Singletons are not transparent. Singletons allow a class to access a shared resource without making it clear to external objects. A developer that is not familiar with the internal implementation of a class might mistakenly believe that an instance is an isolated object. In reality, the internal state of such class can change at any time. Or worse, calling a method can cause unexpected side effects.
+Singletons carry state around for the lifetime of the application. There are cases in which you need to reset the shared state. When you can have multiple instances, you can discard the old one and then create a new one. In a singleton, instead, resetting state might not be so natural and might require specific and complex code.
+Singleton classes often become monoliths. Since it’s easy to access a singleton from anywhere, the chances are high that code that needs to be shared ends inside an existing singleton. Massive view controllers are not the only monolithic objects you should avoid in iOS. The same happens to singletons.
+Code that uses singletons is hard or impossible to test. Unit testing treats tested code as a separate, independent unit. The internal state of a unit should change only when the testing code interacts with its interface. Additionally, the same sequence of method calls should always lead to the same internal state. Singletons break these two assumptions. Finally, the testing of complex objects often implies replacing dependencies with test doubles like stubs, spies and mocks. Some languages allow you to access the internal state of an object through a mocking framework. In Swift, this is not possible, so there is no way to replace a singleton with a test double.
+
+
+
+=========
+GOOD SOLUTION IS DEPENDENCY INJECTION
+=========
