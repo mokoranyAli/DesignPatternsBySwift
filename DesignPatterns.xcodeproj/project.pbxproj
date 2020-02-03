@@ -22,6 +22,9 @@
 		874C95F723DEB2890043CA08 /* Concrete Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95F623DEB2890043CA08 /* Concrete Factory.swift */; };
 		874C95F923DEB2F10043CA08 /* GUIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95F823DEB2F10043CA08 /* GUIBuilder.swift */; };
 		874C95FB23DEB3520043CA08 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C95FA23DEB3520043CA08 /* Client.swift */; };
+		87DBF67023E81F68003C899C /* Singletone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBF66F23E81F68003C899C /* Singletone.swift */; };
+		87DBF67223E81FEE003C899C /* DeiscripSingletone in Resources */ = {isa = PBXBuildFile; fileRef = 87DBF67123E81FEE003C899C /* DeiscripSingletone */; };
+		87DBF67423E82082003C899C /* SingletoneClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBF67323E82082003C899C /* SingletoneClient.swift */; };
 		87F5FB5223E30DB2001903F6 /* DescriptionStrategy in Resources */ = {isa = PBXBuildFile; fileRef = 87F5FB5123E30DB2001903F6 /* DescriptionStrategy */; };
 		87F5FB5423E30E01001903F6 /* IStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB5323E30E01001903F6 /* IStrategy.swift */; };
 		87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB5523E30E7C001903F6 /* Strategy_Impl.swift */; };
@@ -94,6 +97,9 @@
 		874C95F623DEB2890043CA08 /* Concrete Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Concrete Factory.swift"; sourceTree = "<group>"; };
 		874C95F823DEB2F10043CA08 /* GUIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUIBuilder.swift; sourceTree = "<group>"; };
 		874C95FA23DEB3520043CA08 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		87DBF66F23E81F68003C899C /* Singletone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singletone.swift; sourceTree = "<group>"; };
+		87DBF67123E81FEE003C899C /* DeiscripSingletone */ = {isa = PBXFileReference; lastKnownFileType = text; path = DeiscripSingletone; sourceTree = "<group>"; };
+		87DBF67323E82082003C899C /* SingletoneClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletoneClient.swift; sourceTree = "<group>"; };
 		87F5FB5123E30DB2001903F6 /* DescriptionStrategy */ = {isa = PBXFileReference; lastKnownFileType = text; path = DescriptionStrategy; sourceTree = "<group>"; };
 		87F5FB5323E30E01001903F6 /* IStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IStrategy.swift; sourceTree = "<group>"; };
 		87F5FB5523E30E7C001903F6 /* Strategy_Impl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy_Impl.swift; sourceTree = "<group>"; };
@@ -229,6 +235,7 @@
 		874C95EC23DEAFFA0043CA08 /* Cerational */ = {
 			isa = PBXGroup;
 			children = (
+				87DBF66E23E81F3F003C899C /* Singletone */,
 				874C95ED23DEB04E0043CA08 /* AbstraceFactory */,
 			);
 			path = Cerational;
@@ -246,6 +253,16 @@
 				874C95FA23DEB3520043CA08 /* Client.swift */,
 			);
 			path = AbstraceFactory;
+			sourceTree = "<group>";
+		};
+		87DBF66E23E81F3F003C899C /* Singletone */ = {
+			isa = PBXGroup;
+			children = (
+				87DBF66F23E81F68003C899C /* Singletone.swift */,
+				87DBF67123E81FEE003C899C /* DeiscripSingletone */,
+				87DBF67323E82082003C899C /* SingletoneClient.swift */,
+			);
+			path = Singletone;
 			sourceTree = "<group>";
 		};
 		87F5FB5023E30D93001903F6 /* Strategy */ = {
@@ -421,6 +438,7 @@
 				874C95C923DEAFEE0043CA08 /* LaunchScreen.storyboard in Resources */,
 				874C95C623DEAFEE0043CA08 /* Assets.xcassets in Resources */,
 				87F5FB8723E58786001903F6 /* DiscriptionCoR in Resources */,
+				87DBF67223E81FEE003C899C /* DeiscripSingletone in Resources */,
 				874C95C423DEAFEA0043CA08 /* Main.storyboard in Resources */,
 				87F5FB6823E45C68001903F6 /* AdapterDescription in Resources */,
 				874C95F123DEB12C0043CA08 /* Description in Resources */,
@@ -467,6 +485,7 @@
 				87F5FB7A23E4820E001903F6 /* PlayReciever.swift in Sources */,
 				87F5FB8023E48498001903F6 /* JoystickInvoker.swift in Sources */,
 				87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */,
+				87DBF67423E82082003C899C /* SingletoneClient.swift in Sources */,
 				87F5FB7823E481C5001903F6 /* Command.swift in Sources */,
 				87F5FB6523E31D6A001903F6 /* ClientProxy.swift in Sources */,
 				87F5FB5A23E3130A001903F6 /* ClientStrategy.swift in Sources */,
@@ -482,6 +501,7 @@
 				87F5FB9723E59147001903F6 /* ClientCoR.swift in Sources */,
 				87F5FB8923E58926001903F6 /* MathHandler.swift in Sources */,
 				87F5FB7E23E483FD001903F6 /* Tackling.swift in Sources */,
+				87DBF67023E81F68003C899C /* Singletone.swift in Sources */,
 				87F5FB9523E58FA1001903F6 /* Receiver.swift in Sources */,
 				874C95FB23DEB3520043CA08 /* Client.swift in Sources */,
 				87F5FB7123E46D5F001903F6 /* AdapterClient.swift in Sources */,

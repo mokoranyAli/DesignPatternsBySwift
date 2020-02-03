@@ -9,7 +9,7 @@
 import Foundation
 
 
-public class mainClass
+public class MainClass
 {
     let shoppingCardObj = ShoppingCard(newStrategy: nil)
     

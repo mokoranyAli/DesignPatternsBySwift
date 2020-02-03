@@ -1,0 +1,2 @@
+	
+Singletons are objects that should only ever be created once, then shared everywhere they need to be used. They are common on Apple’s platforms: FileManager, UserDefaults, UIApplication, and UIAccelerometer are all mostly used through their singleton implementations.
