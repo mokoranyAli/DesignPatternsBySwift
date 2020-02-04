@@ -1,0 +1,11 @@
+
+A class should only one reason to change
+• Defined by Robert C. Martin in his book Agile Software Development, Principles, Patterns, and Practices
+
+
+
+Pros:
+• Low coupling
+• Light dependency
+• Cohesion
+• Flexibility to change

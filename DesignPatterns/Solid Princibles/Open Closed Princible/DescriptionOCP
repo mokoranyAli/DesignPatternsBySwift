@@ -1,0 +1,4 @@
+
+You should be able to extend the behavior of a system without having to modify that system.
+
+-Software Entities must be open for extension and closed for modification

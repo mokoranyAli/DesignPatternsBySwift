@@ -1,0 +1,5 @@
+
+• The concept of this principle was introduced by Barbara Liskov in a 1987 conference keynote.
+• Derived classes must be substitutable for their base classes.
+• The reference to the Base class can be replaced with a Derived class without affecting the functionality of the program module.
+• A subclass should override the parent class' methods in a way that does not break functionality from a client's point of view.

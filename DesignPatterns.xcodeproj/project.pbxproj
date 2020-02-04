@@ -33,6 +33,22 @@
 		8751008B23E82C8B0096498B /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008A23E82C8B0096498B /* Tuner.swift */; };
 		8751008E23E82E3F0096498B /* EntryPointFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008D23E82E3F0096498B /* EntryPointFacade.swift */; };
 		8751009023E82F9A0096498B /* DiscribeFacade in Resources */ = {isa = PBXBuildFile; fileRef = 8751008F23E82F9A0096498B /* DiscribeFacade */; };
+		875755A223E987E200A7A30A /* CalculatorProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755A123E987E200A7A30A /* CalculatorProblem.swift */; };
+		875755A623E987E200A7A30A /* CalculatorSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755A523E987E200A7A30A /* CalculatorSolution.swift */; };
+		875755A823E987E200A7A30A /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755A723E987E200A7A30A /* Connection.swift */; };
+		875755AB23E987E200A7A30A /* Description_SRP in Resources */ = {isa = PBXBuildFile; fileRef = 875755AA23E987E200A7A30A /* Description_SRP */; };
+		875755B023E987E200A7A30A /* OCP_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755AF23E987E200A7A30A /* OCP_Problem.swift */; };
+		875755B223E987E200A7A30A /* OCP_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755B123E987E200A7A30A /* OCP_Solution.swift */; };
+		875755B423E9888C00A7A30A /* DescriptionOCP in Resources */ = {isa = PBXBuildFile; fileRef = 875755B323E9888C00A7A30A /* DescriptionOCP */; };
+		875755B923E989B500A7A30A /* description_LSP in Resources */ = {isa = PBXBuildFile; fileRef = 875755B823E989B500A7A30A /* description_LSP */; };
+		875755BB23E989F200A7A30A /* LSP_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755BA23E989F200A7A30A /* LSP_Problem.swift */; };
+		875755BD23E98B0B00A7A30A /* LSP_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755BC23E98B0B00A7A30A /* LSP_Solution.swift */; };
+		875755C223E996D300A7A30A /* description_ISP in Resources */ = {isa = PBXBuildFile; fileRef = 875755C123E996D300A7A30A /* description_ISP */; };
+		875755C423E9972400A7A30A /* ISP_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755C323E9972400A7A30A /* ISP_Problem.swift */; };
+		875755C623E9981B00A7A30A /* ISP_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755C523E9981B00A7A30A /* ISP_Solution.swift */; };
+		875755CB23E9998C00A7A30A /* Description_DIVP in Resources */ = {isa = PBXBuildFile; fileRef = 875755CA23E9998C00A7A30A /* Description_DIVP */; };
+		875755CD23E999D600A7A30A /* DIVP_Problem .swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755CC23E999D600A7A30A /* DIVP_Problem .swift */; };
+		875755CF23E99B8B00A7A30A /* DIVP_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875755CE23E99B8B00A7A30A /* DIVP_Solution.swift */; };
 		87DBF67023E81F68003C899C /* Singletone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBF66F23E81F68003C899C /* Singletone.swift */; };
 		87DBF67223E81FEE003C899C /* DeiscripSingletone in Resources */ = {isa = PBXBuildFile; fileRef = 87DBF67123E81FEE003C899C /* DeiscripSingletone */; };
 		87DBF67423E82082003C899C /* SingletoneClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBF67323E82082003C899C /* SingletoneClient.swift */; };
@@ -119,6 +135,22 @@
 		8751008A23E82C8B0096498B /* Tuner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
 		8751008D23E82E3F0096498B /* EntryPointFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPointFacade.swift; sourceTree = "<group>"; };
 		8751008F23E82F9A0096498B /* DiscribeFacade */ = {isa = PBXFileReference; lastKnownFileType = text; path = DiscribeFacade; sourceTree = "<group>"; };
+		875755A123E987E200A7A30A /* CalculatorProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorProblem.swift; sourceTree = "<group>"; };
+		875755A523E987E200A7A30A /* CalculatorSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorSolution.swift; sourceTree = "<group>"; };
+		875755A723E987E200A7A30A /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		875755AA23E987E200A7A30A /* Description_SRP */ = {isa = PBXFileReference; lastKnownFileType = text; path = Description_SRP; sourceTree = "<group>"; };
+		875755AF23E987E200A7A30A /* OCP_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP_Problem.swift; sourceTree = "<group>"; };
+		875755B123E987E200A7A30A /* OCP_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP_Solution.swift; sourceTree = "<group>"; };
+		875755B323E9888C00A7A30A /* DescriptionOCP */ = {isa = PBXFileReference; lastKnownFileType = text; path = DescriptionOCP; sourceTree = "<group>"; };
+		875755B823E989B500A7A30A /* description_LSP */ = {isa = PBXFileReference; lastKnownFileType = text; path = description_LSP; sourceTree = "<group>"; };
+		875755BA23E989F200A7A30A /* LSP_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP_Problem.swift; sourceTree = "<group>"; };
+		875755BC23E98B0B00A7A30A /* LSP_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP_Solution.swift; sourceTree = "<group>"; };
+		875755C123E996D300A7A30A /* description_ISP */ = {isa = PBXFileReference; lastKnownFileType = text; path = description_ISP; sourceTree = "<group>"; };
+		875755C323E9972400A7A30A /* ISP_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP_Problem.swift; sourceTree = "<group>"; };
+		875755C523E9981B00A7A30A /* ISP_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP_Solution.swift; sourceTree = "<group>"; };
+		875755CA23E9998C00A7A30A /* Description_DIVP */ = {isa = PBXFileReference; lastKnownFileType = text; path = Description_DIVP; sourceTree = "<group>"; };
+		875755CC23E999D600A7A30A /* DIVP_Problem .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DIVP_Problem .swift"; sourceTree = "<group>"; };
+		875755CE23E99B8B00A7A30A /* DIVP_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIVP_Solution.swift; sourceTree = "<group>"; };
 		87DBF66F23E81F68003C899C /* Singletone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singletone.swift; sourceTree = "<group>"; };
 		87DBF67123E81FEE003C899C /* DeiscripSingletone */ = {isa = PBXFileReference; lastKnownFileType = text; path = DeiscripSingletone; sourceTree = "<group>"; };
 		87DBF67323E82082003C899C /* SingletoneClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletoneClient.swift; sourceTree = "<group>"; };
@@ -223,6 +255,7 @@
 		874C95BB23DEAFEA0043CA08 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				875755A023E987E200A7A30A /* Solid Princibles */,
 				870CB13123E0A6820022B7B4 /* Structual */,
 				870CB13023E0A6770022B7B4 /* Behavioral */,
 				874C95EC23DEAFFA0043CA08 /* Cerational */,
@@ -302,6 +335,149 @@
 				8751008A23E82C8B0096498B /* Tuner.swift */,
 			);
 			path = Subsystems;
+			sourceTree = "<group>";
+		};
+		875755A023E987E200A7A30A /* Solid Princibles */ = {
+			isa = PBXGroup;
+			children = (
+				875755C723E9994200A7A30A /* Dependency Inversion Principle  */,
+				875755BE23E9968600A7A30A /* Interface Segregation Principle */,
+				875755B523E9893F00A7A30A /* Liskov Substitution Principle  */,
+				875755AC23E987E200A7A30A /* Open Closed Princible */,
+				875755A923E987E200A7A30A /* Single Responibilty Princible */,
+			);
+			path = "Solid Princibles";
+			sourceTree = "<group>";
+		};
+		875755A323E987E200A7A30A /* problem  */ = {
+			isa = PBXGroup;
+			children = (
+				875755A123E987E200A7A30A /* CalculatorProblem.swift */,
+			);
+			path = "problem ";
+			sourceTree = "<group>";
+		};
+		875755A423E987E200A7A30A /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				875755A523E987E200A7A30A /* CalculatorSolution.swift */,
+				875755A723E987E200A7A30A /* Connection.swift */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		875755A923E987E200A7A30A /* Single Responibilty Princible */ = {
+			isa = PBXGroup;
+			children = (
+				875755AA23E987E200A7A30A /* Description_SRP */,
+				875755A423E987E200A7A30A /* Solution */,
+				875755A323E987E200A7A30A /* problem  */,
+			);
+			path = "Single Responibilty Princible";
+			sourceTree = "<group>";
+		};
+		875755AC23E987E200A7A30A /* Open Closed Princible */ = {
+			isa = PBXGroup;
+			children = (
+				875755AE23E987E200A7A30A /* Solution */,
+				875755AD23E987E200A7A30A /* Problem */,
+				875755B323E9888C00A7A30A /* DescriptionOCP */,
+			);
+			path = "Open Closed Princible";
+			sourceTree = "<group>";
+		};
+		875755AD23E987E200A7A30A /* Problem */ = {
+			isa = PBXGroup;
+			children = (
+				875755AF23E987E200A7A30A /* OCP_Problem.swift */,
+			);
+			path = Problem;
+			sourceTree = "<group>";
+		};
+		875755AE23E987E200A7A30A /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				875755B123E987E200A7A30A /* OCP_Solution.swift */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		875755B523E9893F00A7A30A /* Liskov Substitution Principle  */ = {
+			isa = PBXGroup;
+			children = (
+				875755B723E9894F00A7A30A /* Solution */,
+				875755B623E9894800A7A30A /* Problem */,
+				875755B823E989B500A7A30A /* description_LSP */,
+			);
+			path = "Liskov Substitution Principle ";
+			sourceTree = "<group>";
+		};
+		875755B623E9894800A7A30A /* Problem */ = {
+			isa = PBXGroup;
+			children = (
+				875755BA23E989F200A7A30A /* LSP_Problem.swift */,
+			);
+			path = Problem;
+			sourceTree = "<group>";
+		};
+		875755B723E9894F00A7A30A /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				875755BC23E98B0B00A7A30A /* LSP_Solution.swift */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		875755BE23E9968600A7A30A /* Interface Segregation Principle */ = {
+			isa = PBXGroup;
+			children = (
+				875755C023E9969C00A7A30A /* Solution */,
+				875755BF23E9969000A7A30A /* Problem */,
+				875755C123E996D300A7A30A /* description_ISP */,
+			);
+			path = "Interface Segregation Principle";
+			sourceTree = "<group>";
+		};
+		875755BF23E9969000A7A30A /* Problem */ = {
+			isa = PBXGroup;
+			children = (
+				875755C323E9972400A7A30A /* ISP_Problem.swift */,
+			);
+			path = Problem;
+			sourceTree = "<group>";
+		};
+		875755C023E9969C00A7A30A /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				875755C523E9981B00A7A30A /* ISP_Solution.swift */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		875755C723E9994200A7A30A /* Dependency Inversion Principle  */ = {
+			isa = PBXGroup;
+			children = (
+				875755C923E9995500A7A30A /* Solution */,
+				875755C823E9994D00A7A30A /* Problem */,
+				875755CA23E9998C00A7A30A /* Description_DIVP */,
+			);
+			path = "Dependency Inversion Principle ";
+			sourceTree = "<group>";
+		};
+		875755C823E9994D00A7A30A /* Problem */ = {
+			isa = PBXGroup;
+			children = (
+				875755CC23E999D600A7A30A /* DIVP_Problem .swift */,
+			);
+			path = Problem;
+			sourceTree = "<group>";
+		};
+		875755C923E9995500A7A30A /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				875755CE23E99B8B00A7A30A /* DIVP_Solution.swift */,
+			);
+			path = Solution;
 			sourceTree = "<group>";
 		};
 		87DBF66E23E81F3F003C899C /* Singletone */ = {
@@ -486,15 +662,20 @@
 			files = (
 				8751009023E82F9A0096498B /* DiscribeFacade in Resources */,
 				874C95C923DEAFEE0043CA08 /* LaunchScreen.storyboard in Resources */,
+				875755B423E9888C00A7A30A /* DescriptionOCP in Resources */,
 				874C95C623DEAFEE0043CA08 /* Assets.xcassets in Resources */,
 				87F5FB8723E58786001903F6 /* DiscriptionCoR in Resources */,
 				87DBF67223E81FEE003C899C /* DeiscripSingletone in Resources */,
+				875755CB23E9998C00A7A30A /* Description_DIVP in Resources */,
 				874C95C423DEAFEA0043CA08 /* Main.storyboard in Resources */,
+				875755C223E996D300A7A30A /* description_ISP in Resources */,
 				87F5FB6823E45C68001903F6 /* AdapterDescription in Resources */,
+				875755AB23E987E200A7A30A /* Description_SRP in Resources */,
 				874C95F123DEB12C0043CA08 /* Description in Resources */,
 				87F5FB7623E4808B001903F6 /* CommandDescription in Resources */,
 				87F5FB5D23E31901001903F6 /* DescriptionProxy in Resources */,
 				87F5FB5223E30DB2001903F6 /* DescriptionStrategy in Resources */,
+				875755B923E989B500A7A30A /* description_LSP in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,12 +705,15 @@
 				8751008923E82C750096498B /* TheaterLights.swift in Sources */,
 				87F5FB8D23E58992001903F6 /* AddHandler.swift in Sources */,
 				8751008523E82C430096498B /* Projector.swift in Sources */,
+				875755C623E9981B00A7A30A /* ISP_Solution.swift in Sources */,
 				874C95C123DEAFEA0043CA08 /* ViewController.swift in Sources */,
 				874C95F523DEB2460043CA08 /* Abstract Factory.swift in Sources */,
+				875755B223E987E200A7A30A /* OCP_Solution.swift in Sources */,
 				874C95BD23DEAFEA0043CA08 /* AppDelegate.swift in Sources */,
 				87F5FB8223E48596001903F6 /* CommandClient.swift in Sources */,
 				87F5FB8B23E58971001903F6 /* Request.swift in Sources */,
 				87F5FB6D23E461B6001903F6 /* EnglishAdaptee.swift in Sources */,
+				875755BD23E98B0B00A7A30A /* LSP_Solution.swift in Sources */,
 				8751008123E82C0C0096498B /* HomeTheaterFacade.swift in Sources */,
 				87F5FB6F23E46550001903F6 /* TranslatorAdapter.swift in Sources */,
 				874C95F723DEB2890043CA08 /* Concrete Factory.swift in Sources */,
@@ -545,7 +729,10 @@
 				87DBF67423E82082003C899C /* SingletoneClient.swift in Sources */,
 				87F5FB7823E481C5001903F6 /* Command.swift in Sources */,
 				87F5FB6523E31D6A001903F6 /* ClientProxy.swift in Sources */,
+				875755B023E987E200A7A30A /* OCP_Problem.swift in Sources */,
+				875755C423E9972400A7A30A /* ISP_Problem.swift in Sources */,
 				87F5FB5A23E3130A001903F6 /* ClientStrategy.swift in Sources */,
+				875755CD23E999D600A7A30A /* DIVP_Problem .swift in Sources */,
 				874C95EF23DEB0FB0043CA08 /* Abstract Proudcts.swift in Sources */,
 				87F5FB5F23E31A27001903F6 /* IProxy.swift in Sources */,
 				874C95BF23DEAFEA0043CA08 /* SceneDelegate.swift in Sources */,
@@ -556,14 +743,19 @@
 				87F5FB6B23E46078001903F6 /* RussianTarget.swift in Sources */,
 				87F5FB8F23E58E5A001903F6 /* SubHandler.swift in Sources */,
 				8751008B23E82C8B0096498B /* Tuner.swift in Sources */,
+				875755A823E987E200A7A30A /* Connection.swift in Sources */,
+				875755A623E987E200A7A30A /* CalculatorSolution.swift in Sources */,
 				87F5FB9723E59147001903F6 /* ClientCoR.swift in Sources */,
+				875755A223E987E200A7A30A /* CalculatorProblem.swift in Sources */,
 				8751007D23E82BC20096498B /* CdPlayer.swift in Sources */,
 				87F5FB8923E58926001903F6 /* MathHandler.swift in Sources */,
 				87F5FB7E23E483FD001903F6 /* Tackling.swift in Sources */,
+				875755BB23E989F200A7A30A /* LSP_Problem.swift in Sources */,
 				87DBF67023E81F68003C899C /* Singletone.swift in Sources */,
 				87F5FB9523E58FA1001903F6 /* Receiver.swift in Sources */,
 				874C95FB23DEB3520043CA08 /* Client.swift in Sources */,
 				87F5FB7123E46D5F001903F6 /* AdapterClient.swift in Sources */,
+				875755CF23E99B8B00A7A30A /* DIVP_Solution.swift in Sources */,
 				87F5FB9323E58EED001903F6 /* MulHandler.swift in Sources */,
 				8751008E23E82E3F0096498B /* EntryPointFacade.swift in Sources */,
 			);

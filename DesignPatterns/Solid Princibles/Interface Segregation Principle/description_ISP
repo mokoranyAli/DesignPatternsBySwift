@@ -1,0 +1,5 @@
+
+• Clients should not be forced to depend upon interfaces that they don't use.
+• ISP teaches us to respect our clients needs.
+• This principle deals with the disadvantages of “fat” interfaces or “interface pollution”.
+• If every time a derivative needs a new interface, that interface will be added to the base class. This will further pollute the interface of the base class, making it “fat”.
