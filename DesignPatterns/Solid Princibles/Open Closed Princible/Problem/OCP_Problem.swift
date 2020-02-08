@@ -3,7 +3,7 @@
 //  DesignPatterns
 //
 //  Created by Mohamed Korany Ali on 2/4/20.
-//  Copyright © 2020 Mohamed Korany Ali. All rights reserved.
+//  Copyright © 2020 Mohamed Korany Ali. All rights reserved.  
 //
 
 import Foundation
@@ -32,7 +32,7 @@ class Rect : ShapeProblem {
 
 // here is a big problem ... if you need to add shape you have to open class and edit in structue and add another class
 
-class AreaCalculator {
+class GraphicsEditorProblem {
   
     func drawShape(shape:ShapeProblem) 	 {
         
@@ -50,7 +50,7 @@ class AreaCalculator {
     }
     func drawRect (rect:Rect) {
         
-         print("circle....")
+         print("Rect....")
     }
     
 }

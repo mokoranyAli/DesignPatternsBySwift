@@ -37,7 +37,7 @@ class Triangle:ShapeSolution {
 }
 
 
-class AreaCalculatorSolution {
+class GraphicsEditorSolution {
   
     func drawShape(shape:ShapeSolution)      {
         shape.draw()

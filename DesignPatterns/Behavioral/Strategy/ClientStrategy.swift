@@ -20,6 +20,7 @@ public class MainClass
         shoppingCardObj.todayDate = "sat"
         
         switch shoppingCardObj.todayDate {
+            //do some code to know what is the today
         case "sat":
             shoppingCardObj.currentStrategy	= HighDiscountStrategy()
             break
