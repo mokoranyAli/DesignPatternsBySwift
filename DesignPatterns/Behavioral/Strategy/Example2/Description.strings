@@ -1,0 +1,20 @@
+/* 
+  Description.strings
+  DesignPatterns
+
+  Created by Mohamed Korany on 5/13/21.
+  Copyright © 2021 Mohamed Korany Ali. All rights reserved.
+*/
+
+/*
+What: A protocol that defines the action that we want to encapsulate. In our example, the action would be log a message.
+Who: An object who contains an object who conforms the strategy. In our example, it could be an object who using the strategy log the message.
+How: Specific implementations of the strategy. Each implementation is different. In our example, we would have three strategies, one for each style.
+
+
+    In computer programming, the strategy pattern is a behavioral software design pattern that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives run-time instructions as to which in a family of algorithms to use.
+
+🤯 ⁉️ This definition is very theoretical, so I think we could define it easier:
+
+    Encapsulates algorithms in classes, making them reusable and interchangeable at runtime.
+*/

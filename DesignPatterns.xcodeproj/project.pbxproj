@@ -94,12 +94,21 @@
 		A26E2C41264DADF500E95996 /* BurgerShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C40264DADF500E95996 /* BurgerShop.swift */; };
 		A26E2C44264DAE6E00E95996 /* Entrypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C43264DAE6E00E95996 /* Entrypoint.swift */; };
 		A26E2C47264DB39200E95996 /* JobContactProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C46264DB39200E95996 /* JobContactProtocol.swift */; };
-		A26E2C49264DB3B700E95996 /* FactoryDescription.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26E2C48264DB3B700E95996 /* FactoryDescription.strings */; };
+		A26E2C49264DB3B700E95996 /* FactoryDescription in Resources */ = {isa = PBXBuildFile; fileRef = A26E2C48264DB3B700E95996 /* FactoryDescription */; };
 		A26E2C4B264DB3F300E95996 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C4A264DB3F300E95996 /* Contact.swift */; };
 		A26E2C4D264DB42C00E95996 /* JobSeekers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C4C264DB42C00E95996 /* JobSeekers.swift */; };
 		A26E2C4F264DB44500E95996 /* JobContacterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C4E264DB44500E95996 /* JobContacterFactory.swift */; };
 		A26E2C51264DB49300E95996 /* ClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C50264DB49300E95996 /* ClientFactory.swift */; };
-		A26E2C53264DB51500E95996 /* BuilderDescription.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26E2C52264DB51500E95996 /* BuilderDescription.strings */; };
+		A26E2C53264DB51500E95996 /* BuilderDescription in Resources */ = {isa = PBXBuildFile; fileRef = A26E2C52264DB51500E95996 /* BuilderDescription */; };
+		A26E2C57264DBBB200E95996 /* Description.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26E2C56264DBBB200E95996 /* Description.strings */; };
+		A26E2C59264DBBFD00E95996 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C58264DBBFD00E95996 /* Logger.swift */; };
+		A26E2C5B264DBC2200E95996 /* StrategyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C5A264DBC2200E95996 /* StrategyClient.swift */; };
+		A26E2C5E264DD12D00E95996 /* StateVsStrategy in Resources */ = {isa = PBXBuildFile; fileRef = A26E2C5D264DD12D00E95996 /* StateVsStrategy */; };
+		A26E2C60264DD27700E95996 /* MobileAlertState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C5F264DD27700E95996 /* MobileAlertState.swift */; };
+		A26E2C62264DD2A300E95996 /* MobileContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C61264DD2A300E95996 /* MobileContext.swift */; };
+		A26E2C64264DD2D700E95996 /* Rining.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C63264DD2D700E95996 /* Rining.swift */; };
+		A26E2C66264DD39600E95996 /* Silent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C65264DD39600E95996 /* Silent.swift */; };
+		A26E2C68264DD40800E95996 /* StateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C67264DD40800E95996 /* StateClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,12 +222,21 @@
 		A26E2C40264DADF500E95996 /* BurgerShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShop.swift; sourceTree = "<group>"; };
 		A26E2C43264DAE6E00E95996 /* Entrypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrypoint.swift; sourceTree = "<group>"; };
 		A26E2C46264DB39200E95996 /* JobContactProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobContactProtocol.swift; sourceTree = "<group>"; };
-		A26E2C48264DB3B700E95996 /* FactoryDescription.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FactoryDescription.strings; sourceTree = "<group>"; };
+		A26E2C48264DB3B700E95996 /* FactoryDescription */ = {isa = PBXFileReference; lastKnownFileType = text; path = FactoryDescription; sourceTree = "<group>"; };
 		A26E2C4A264DB3F300E95996 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		A26E2C4C264DB42C00E95996 /* JobSeekers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSeekers.swift; sourceTree = "<group>"; };
 		A26E2C4E264DB44500E95996 /* JobContacterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobContacterFactory.swift; sourceTree = "<group>"; };
 		A26E2C50264DB49300E95996 /* ClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientFactory.swift; sourceTree = "<group>"; };
-		A26E2C52264DB51500E95996 /* BuilderDescription.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = BuilderDescription.strings; sourceTree = "<group>"; };
+		A26E2C52264DB51500E95996 /* BuilderDescription */ = {isa = PBXFileReference; lastKnownFileType = text; path = BuilderDescription; sourceTree = "<group>"; };
+		A26E2C56264DBBB200E95996 /* Description.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Description.strings; sourceTree = "<group>"; };
+		A26E2C58264DBBFD00E95996 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		A26E2C5A264DBC2200E95996 /* StrategyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyClient.swift; sourceTree = "<group>"; };
+		A26E2C5D264DD12D00E95996 /* StateVsStrategy */ = {isa = PBXFileReference; lastKnownFileType = text; path = StateVsStrategy; sourceTree = "<group>"; };
+		A26E2C5F264DD27700E95996 /* MobileAlertState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAlertState.swift; sourceTree = "<group>"; };
+		A26E2C61264DD2A300E95996 /* MobileContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileContext.swift; sourceTree = "<group>"; };
+		A26E2C63264DD2D700E95996 /* Rining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rining.swift; sourceTree = "<group>"; };
+		A26E2C65264DD39600E95996 /* Silent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silent.swift; sourceTree = "<group>"; };
+		A26E2C67264DD40800E95996 /* StateClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +267,7 @@
 		870CB13023E0A6770022B7B4 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				A26E2C5C264DD10A00E95996 /* State */,
 				874E371723EF153400545295 /* Mediator */,
 				87F5FB8323E586FA001903F6 /* ChainOfResponsiblity */,
 				87F5FB7223E48035001903F6 /* Command */,
@@ -543,11 +562,8 @@
 		87F5FB5023E30D93001903F6 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
-				87F5FB5123E30DB2001903F6 /* DescriptionStrategy */,
-				87F5FB5323E30E01001903F6 /* IStrategy.swift */,
-				87F5FB5523E30E7C001903F6 /* Strategy_Impl.swift */,
-				87F5FB5723E30F8A001903F6 /* Shopping Card.swift */,
-				87F5FB5923E3130A001903F6 /* ClientStrategy.swift */,
+				A26E2C55264DBB9C00E95996 /* Example2 */,
+				A26E2C54264DBB8800E95996 /* Example1 */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -613,7 +629,7 @@
 				A26E2C3F264DADE400E95996 /* Director */,
 				A26E2C3C264DAD8500E95996 /* Builder */,
 				A26E2C39264DACD600E95996 /* Product */,
-				A26E2C52264DB51500E95996 /* BuilderDescription.strings */,
+				A26E2C52264DB51500E95996 /* BuilderDescription */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -654,13 +670,48 @@
 			isa = PBXGroup;
 			children = (
 				A26E2C46264DB39200E95996 /* JobContactProtocol.swift */,
-				A26E2C48264DB3B700E95996 /* FactoryDescription.strings */,
+				A26E2C48264DB3B700E95996 /* FactoryDescription */,
 				A26E2C4A264DB3F300E95996 /* Contact.swift */,
 				A26E2C4C264DB42C00E95996 /* JobSeekers.swift */,
 				A26E2C4E264DB44500E95996 /* JobContacterFactory.swift */,
 				A26E2C50264DB49300E95996 /* ClientFactory.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		A26E2C54264DBB8800E95996 /* Example1 */ = {
+			isa = PBXGroup;
+			children = (
+				87F5FB5123E30DB2001903F6 /* DescriptionStrategy */,
+				87F5FB5323E30E01001903F6 /* IStrategy.swift */,
+				87F5FB5523E30E7C001903F6 /* Strategy_Impl.swift */,
+				87F5FB5723E30F8A001903F6 /* Shopping Card.swift */,
+				87F5FB5923E3130A001903F6 /* ClientStrategy.swift */,
+			);
+			path = Example1;
+			sourceTree = "<group>";
+		};
+		A26E2C55264DBB9C00E95996 /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				A26E2C56264DBBB200E95996 /* Description.strings */,
+				A26E2C58264DBBFD00E95996 /* Logger.swift */,
+				A26E2C5A264DBC2200E95996 /* StrategyClient.swift */,
+			);
+			path = Example2;
+			sourceTree = "<group>";
+		};
+		A26E2C5C264DD10A00E95996 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				A26E2C5D264DD12D00E95996 /* StateVsStrategy */,
+				A26E2C5F264DD27700E95996 /* MobileAlertState.swift */,
+				A26E2C61264DD2A300E95996 /* MobileContext.swift */,
+				A26E2C63264DD2D700E95996 /* Rining.swift */,
+				A26E2C65264DD39600E95996 /* Silent.swift */,
+				A26E2C67264DD40800E95996 /* StateClient.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -767,13 +818,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26E2C5E264DD12D00E95996 /* StateVsStrategy in Resources */,
 				8751009023E82F9A0096498B /* DiscribeFacade in Resources */,
 				874C95C923DEAFEE0043CA08 /* LaunchScreen.storyboard in Resources */,
 				875755B423E9888C00A7A30A /* DescriptionOCP in Resources */,
 				874C95C623DEAFEE0043CA08 /* Assets.xcassets in Resources */,
-				A26E2C49264DB3B700E95996 /* FactoryDescription.strings in Resources */,
+				A26E2C49264DB3B700E95996 /* FactoryDescription in Resources */,
 				87F5FB8723E58786001903F6 /* DiscriptionCoR in Resources */,
 				87DBF67223E81FEE003C899C /* DeiscripSingletone in Resources */,
+				A26E2C57264DBBB200E95996 /* Description.strings in Resources */,
 				875755CB23E9998C00A7A30A /* Description_DIVP in Resources */,
 				874C95C423DEAFEA0043CA08 /* Main.storyboard in Resources */,
 				875755C223E996D300A7A30A /* description_ISP in Resources */,
@@ -784,7 +837,7 @@
 				87F5FB7623E4808B001903F6 /* CommandDescription in Resources */,
 				87F5FB5D23E31901001903F6 /* DescriptionProxy in Resources */,
 				87F5FB5223E30DB2001903F6 /* DescriptionStrategy in Resources */,
-				A26E2C53264DB51500E95996 /* BuilderDescription.strings in Resources */,
+				A26E2C53264DB51500E95996 /* BuilderDescription in Resources */,
 				875755B923E989B500A7A30A /* description_LSP in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -815,6 +868,7 @@
 				8751008923E82C750096498B /* TheaterLights.swift in Sources */,
 				87F5FB8D23E58992001903F6 /* AddHandler.swift in Sources */,
 				8751008523E82C430096498B /* Projector.swift in Sources */,
+				A26E2C60264DD27700E95996 /* MobileAlertState.swift in Sources */,
 				875755C623E9981B00A7A30A /* ISP_Solution.swift in Sources */,
 				874C95C123DEAFEA0043CA08 /* ViewController.swift in Sources */,
 				874C95F523DEB2460043CA08 /* Abstract Factory.swift in Sources */,
@@ -829,11 +883,14 @@
 				8751008123E82C0C0096498B /* HomeTheaterFacade.swift in Sources */,
 				87F5FB6F23E46550001903F6 /* TranslatorAdapter.swift in Sources */,
 				874C95F723DEB2890043CA08 /* Concrete Factory.swift in Sources */,
+				A26E2C5B264DBC2200E95996 /* StrategyClient.swift in Sources */,
 				87F5FB5423E30E01001903F6 /* IStrategy.swift in Sources */,
 				87F5FB9123E58EA3001903F6 /* DivHandler.swift in Sources */,
 				8751008723E82C5F0096498B /* Screen.swift in Sources */,
+				A26E2C59264DBBFD00E95996 /* Logger.swift in Sources */,
 				8751007F23E82BDC0096498B /* DvdPlayer.swift in Sources */,
 				8751007B23E82BA80096498B /* Amplifier.swift in Sources */,
+				A26E2C62264DD2A300E95996 /* MobileContext.swift in Sources */,
 				87F5FB7A23E4820E001903F6 /* PlayReciever.swift in Sources */,
 				87F5FB8023E48498001903F6 /* JoystickInvoker.swift in Sources */,
 				87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */,
@@ -867,12 +924,15 @@
 				875755A223E987E200A7A30A /* CalculatorProblem.swift in Sources */,
 				874E372123EF1C6300545295 /* MyCalender.swift in Sources */,
 				874E371F23EF1B6B00545295 /* Alarm.swift in Sources */,
+				A26E2C68264DD40800E95996 /* StateClient.swift in Sources */,
+				A26E2C64264DD2D700E95996 /* Rining.swift in Sources */,
 				8751007D23E82BC20096498B /* CdPlayer.swift in Sources */,
 				A26E2C44264DAE6E00E95996 /* Entrypoint.swift in Sources */,
 				87F5FB8923E58926001903F6 /* MathHandler.swift in Sources */,
 				A26E2C41264DADF500E95996 /* BurgerShop.swift in Sources */,
 				87F5FB7E23E483FD001903F6 /* Tackling.swift in Sources */,
 				875755BB23E989F200A7A30A /* LSP_Problem.swift in Sources */,
+				A26E2C66264DD39600E95996 /* Silent.swift in Sources */,
 				87DBF67023E81F68003C899C /* Singletone.swift in Sources */,
 				87F5FB9523E58FA1001903F6 /* Receiver.swift in Sources */,
 				874C95FB23DEB3520043CA08 /* Client.swift in Sources */,

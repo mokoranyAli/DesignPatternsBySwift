@@ -1,0 +1,8 @@
+
+State Pattern
+
+This pattern is a behavioral software pattern that its behavior changes when its internal state changes. Let’s say that we will create a calculator and it will perform two mathematical operations, Add and Subtractor. So, calculator will be an interface that contains one method, Calculate. This calculation operation will be able to change from Add to Subtractor and vice versa. In the State pattern, this change can be performed internally, I mean, client will not change this behavior. Behavior will change automatically and internally when some conditions are provided. So, program will continue executing according to the current state. This is a basic example for State pattern. For more information, you can read the link in references section.
+
+Strategy Pattern
+
+This patterns is also a behavioral software pattern and it is also known as Policy pattern. This pattern enables selecting an algorithm at run-time. So, client will be able to change current behavior directly whenever wants. Let’s continue with the same example and let’s say that we will create a calculator and it will perform two mathematical operations, Add and Substractor. So, calculator will be an interface that contains one method, Calculate. This calculation operation will be able to change from Add to Substractor and vice versa. In Strategy pattern, as I said, can be changed by the client by changing the strategy. This is a basic example for Strategy pattern. For more information, you can read the link in references section.
