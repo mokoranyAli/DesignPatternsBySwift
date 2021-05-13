@@ -27,15 +27,12 @@
 		874E371D23EF19BD00545295 /* CoffeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874E371C23EF19BD00545295 /* CoffeMachine.swift */; };
 		874E371F23EF1B6B00545295 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874E371E23EF1B6B00545295 /* Alarm.swift */; };
 		874E372123EF1C6300545295 /* MyCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874E372023EF1C6300545295 /* MyCalender.swift */; };
-		874E372323EF1F9100545295 /* MovingRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874E372223EF1F9100545295 /* MovingRobot.swift */; };
-		874E372523EF20F100545295 /* SmartWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874E372423EF20F100545295 /* SmartWindow.swift */; };
 		874E372723EF282A00545295 /* DaysOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874E372623EF282A00545295 /* DaysOfWeek.swift */; };
 		874E372923EF2B8F00545295 /* MediatorEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874E372823EF2B8F00545295 /* MediatorEntryPoint.swift */; };
 		8751007B23E82BA80096498B /* Amplifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751007A23E82BA80096498B /* Amplifier.swift */; };
 		8751007D23E82BC20096498B /* CdPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751007C23E82BC20096498B /* CdPlayer.swift */; };
 		8751007F23E82BDC0096498B /* DvdPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751007E23E82BDC0096498B /* DvdPlayer.swift */; };
 		8751008123E82C0C0096498B /* HomeTheaterFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008023E82C0C0096498B /* HomeTheaterFacade.swift */; };
-		8751008323E82C2C0096498B /* PopcornPopper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008223E82C2C0096498B /* PopcornPopper.swift */; };
 		8751008523E82C430096498B /* Projector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008423E82C430096498B /* Projector.swift */; };
 		8751008723E82C5F0096498B /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008623E82C5F0096498B /* Screen.swift */; };
 		8751008923E82C750096498B /* TheaterLights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751008823E82C750096498B /* TheaterLights.swift */; };
@@ -92,6 +89,17 @@
 		87F5FB9323E58EED001903F6 /* MulHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB9223E58EED001903F6 /* MulHandler.swift */; };
 		87F5FB9523E58FA1001903F6 /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB9423E58FA1001903F6 /* Receiver.swift */; };
 		87F5FB9723E59147001903F6 /* ClientCoR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB9623E59147001903F6 /* ClientCoR.swift */; };
+		A26E2C3B264DAD5500E95996 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C3A264DAD5500E95996 /* Product.swift */; };
+		A26E2C3E264DAD9700E95996 /* HamburgerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C3D264DAD9700E95996 /* HamburgerBuilder.swift */; };
+		A26E2C41264DADF500E95996 /* BurgerShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C40264DADF500E95996 /* BurgerShop.swift */; };
+		A26E2C44264DAE6E00E95996 /* Entrypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C43264DAE6E00E95996 /* Entrypoint.swift */; };
+		A26E2C47264DB39200E95996 /* JobContactProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C46264DB39200E95996 /* JobContactProtocol.swift */; };
+		A26E2C49264DB3B700E95996 /* FactoryDescription.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26E2C48264DB3B700E95996 /* FactoryDescription.strings */; };
+		A26E2C4B264DB3F300E95996 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C4A264DB3F300E95996 /* Contact.swift */; };
+		A26E2C4D264DB42C00E95996 /* JobSeekers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C4C264DB42C00E95996 /* JobSeekers.swift */; };
+		A26E2C4F264DB44500E95996 /* JobContacterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C4E264DB44500E95996 /* JobContacterFactory.swift */; };
+		A26E2C51264DB49300E95996 /* ClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C50264DB49300E95996 /* ClientFactory.swift */; };
+		A26E2C53264DB51500E95996 /* BuilderDescription.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26E2C52264DB51500E95996 /* BuilderDescription.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,15 +146,12 @@
 		874E371C23EF19BD00545295 /* CoffeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeMachine.swift; sourceTree = "<group>"; };
 		874E371E23EF1B6B00545295 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		874E372023EF1C6300545295 /* MyCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalender.swift; sourceTree = "<group>"; };
-		874E372223EF1F9100545295 /* MovingRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingRobot.swift; sourceTree = "<group>"; };
-		874E372423EF20F100545295 /* SmartWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWindow.swift; sourceTree = "<group>"; };
 		874E372623EF282A00545295 /* DaysOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfWeek.swift; sourceTree = "<group>"; };
 		874E372823EF2B8F00545295 /* MediatorEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorEntryPoint.swift; sourceTree = "<group>"; };
 		8751007A23E82BA80096498B /* Amplifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplifier.swift; sourceTree = "<group>"; };
 		8751007C23E82BC20096498B /* CdPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CdPlayer.swift; sourceTree = "<group>"; };
 		8751007E23E82BDC0096498B /* DvdPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvdPlayer.swift; sourceTree = "<group>"; };
 		8751008023E82C0C0096498B /* HomeTheaterFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTheaterFacade.swift; sourceTree = "<group>"; };
-		8751008223E82C2C0096498B /* PopcornPopper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornPopper.swift; sourceTree = "<group>"; };
 		8751008423E82C430096498B /* Projector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projector.swift; sourceTree = "<group>"; };
 		8751008623E82C5F0096498B /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		8751008823E82C750096498B /* TheaterLights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterLights.swift; sourceTree = "<group>"; };
@@ -203,6 +208,17 @@
 		87F5FB9223E58EED001903F6 /* MulHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulHandler.swift; sourceTree = "<group>"; };
 		87F5FB9423E58FA1001903F6 /* Receiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
 		87F5FB9623E59147001903F6 /* ClientCoR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCoR.swift; sourceTree = "<group>"; };
+		A26E2C3A264DAD5500E95996 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A26E2C3D264DAD9700E95996 /* HamburgerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerBuilder.swift; sourceTree = "<group>"; };
+		A26E2C40264DADF500E95996 /* BurgerShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShop.swift; sourceTree = "<group>"; };
+		A26E2C43264DAE6E00E95996 /* Entrypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrypoint.swift; sourceTree = "<group>"; };
+		A26E2C46264DB39200E95996 /* JobContactProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobContactProtocol.swift; sourceTree = "<group>"; };
+		A26E2C48264DB3B700E95996 /* FactoryDescription.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FactoryDescription.strings; sourceTree = "<group>"; };
+		A26E2C4A264DB3F300E95996 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		A26E2C4C264DB42C00E95996 /* JobSeekers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSeekers.swift; sourceTree = "<group>"; };
+		A26E2C4E264DB44500E95996 /* JobContacterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobContacterFactory.swift; sourceTree = "<group>"; };
+		A26E2C50264DB49300E95996 /* ClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientFactory.swift; sourceTree = "<group>"; };
+		A26E2C52264DB51500E95996 /* BuilderDescription.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = BuilderDescription.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +326,8 @@
 		874C95EC23DEAFFA0043CA08 /* Cerational */ = {
 			isa = PBXGroup;
 			children = (
+				A26E2C45264DB38700E95996 /* Factory */,
+				A26E2C38264DACBB00E95996 /* Builder */,
 				87DBF66E23E81F3F003C899C /* Singletone */,
 				874C95ED23DEB04E0043CA08 /* AbstraceFactory */,
 			);
@@ -339,8 +357,6 @@
 				874E371C23EF19BD00545295 /* CoffeMachine.swift */,
 				874E371E23EF1B6B00545295 /* Alarm.swift */,
 				874E372023EF1C6300545295 /* MyCalender.swift */,
-				874E372223EF1F9100545295 /* MovingRobot.swift */,
-				874E372423EF20F100545295 /* SmartWindow.swift */,
 				874E372623EF282A00545295 /* DaysOfWeek.swift */,
 			);
 			path = Mediator;
@@ -363,7 +379,6 @@
 				8751007A23E82BA80096498B /* Amplifier.swift */,
 				8751007C23E82BC20096498B /* CdPlayer.swift */,
 				8751007E23E82BDC0096498B /* DvdPlayer.swift */,
-				8751008223E82C2C0096498B /* PopcornPopper.swift */,
 				8751008423E82C430096498B /* Projector.swift */,
 				8751008623E82C5F0096498B /* Screen.swift */,
 				8751008823E82C750096498B /* TheaterLights.swift */,
@@ -591,6 +606,63 @@
 			path = ChainOfResponsiblity;
 			sourceTree = "<group>";
 		};
+		A26E2C38264DACBB00E95996 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A26E2C42264DAE5900E95996 /* Client */,
+				A26E2C3F264DADE400E95996 /* Director */,
+				A26E2C3C264DAD8500E95996 /* Builder */,
+				A26E2C39264DACD600E95996 /* Product */,
+				A26E2C52264DB51500E95996 /* BuilderDescription.strings */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		A26E2C39264DACD600E95996 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				A26E2C3A264DAD5500E95996 /* Product.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		A26E2C3C264DAD8500E95996 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A26E2C3D264DAD9700E95996 /* HamburgerBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		A26E2C3F264DADE400E95996 /* Director */ = {
+			isa = PBXGroup;
+			children = (
+				A26E2C40264DADF500E95996 /* BurgerShop.swift */,
+			);
+			path = Director;
+			sourceTree = "<group>";
+		};
+		A26E2C42264DAE5900E95996 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				A26E2C43264DAE6E00E95996 /* Entrypoint.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		A26E2C45264DB38700E95996 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A26E2C46264DB39200E95996 /* JobContactProtocol.swift */,
+				A26E2C48264DB3B700E95996 /* FactoryDescription.strings */,
+				A26E2C4A264DB3F300E95996 /* Contact.swift */,
+				A26E2C4C264DB42C00E95996 /* JobSeekers.swift */,
+				A26E2C4E264DB44500E95996 /* JobContacterFactory.swift */,
+				A26E2C50264DB49300E95996 /* ClientFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -699,6 +771,7 @@
 				874C95C923DEAFEE0043CA08 /* LaunchScreen.storyboard in Resources */,
 				875755B423E9888C00A7A30A /* DescriptionOCP in Resources */,
 				874C95C623DEAFEE0043CA08 /* Assets.xcassets in Resources */,
+				A26E2C49264DB3B700E95996 /* FactoryDescription.strings in Resources */,
 				87F5FB8723E58786001903F6 /* DiscriptionCoR in Resources */,
 				87DBF67223E81FEE003C899C /* DeiscripSingletone in Resources */,
 				875755CB23E9998C00A7A30A /* Description_DIVP in Resources */,
@@ -711,6 +784,7 @@
 				87F5FB7623E4808B001903F6 /* CommandDescription in Resources */,
 				87F5FB5D23E31901001903F6 /* DescriptionProxy in Resources */,
 				87F5FB5223E30DB2001903F6 /* DescriptionStrategy in Resources */,
+				A26E2C53264DB51500E95996 /* BuilderDescription.strings in Resources */,
 				875755B923E989B500A7A30A /* description_LSP in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -745,6 +819,7 @@
 				874C95C123DEAFEA0043CA08 /* ViewController.swift in Sources */,
 				874C95F523DEB2460043CA08 /* Abstract Factory.swift in Sources */,
 				875755B223E987E200A7A30A /* OCP_Solution.swift in Sources */,
+				A26E2C3B264DAD5500E95996 /* Product.swift in Sources */,
 				874C95BD23DEAFEA0043CA08 /* AppDelegate.swift in Sources */,
 				87F5FB8223E48596001903F6 /* CommandClient.swift in Sources */,
 				87F5FB8B23E58971001903F6 /* Request.swift in Sources */,
@@ -762,8 +837,9 @@
 				87F5FB7A23E4820E001903F6 /* PlayReciever.swift in Sources */,
 				87F5FB8023E48498001903F6 /* JoystickInvoker.swift in Sources */,
 				87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */,
-				8751008323E82C2C0096498B /* PopcornPopper.swift in Sources */,
+				A26E2C4B264DB3F300E95996 /* Contact.swift in Sources */,
 				87DBF67423E82082003C899C /* SingletoneClient.swift in Sources */,
+				A26E2C47264DB39200E95996 /* JobContactProtocol.swift in Sources */,
 				874E372723EF282A00545295 /* DaysOfWeek.swift in Sources */,
 				87F5FB7823E481C5001903F6 /* Command.swift in Sources */,
 				87F5FB6523E31D6A001903F6 /* ClientProxy.swift in Sources */,
@@ -776,12 +852,13 @@
 				87F5FB5F23E31A27001903F6 /* IProxy.swift in Sources */,
 				874C95BF23DEAFEA0043CA08 /* SceneDelegate.swift in Sources */,
 				87F5FB5823E30F8A001903F6 /* Shopping Card.swift in Sources */,
+				A26E2C3E264DAD9700E95996 /* HamburgerBuilder.swift in Sources */,
 				874E371B23EF195B00545295 /* Mediator .swift in Sources */,
 				874C95F323DEB1C00043CA08 /* Concret Products.swift in Sources */,
+				A26E2C51264DB49300E95996 /* ClientFactory.swift in Sources */,
 				874C95F923DEB2F10043CA08 /* GUIBuilder.swift in Sources */,
 				87F5FB6323E31B2E001903F6 /* Proxy_Impl.swift in Sources */,
 				87F5FB6B23E46078001903F6 /* RussianTarget.swift in Sources */,
-				874E372523EF20F100545295 /* SmartWindow.swift in Sources */,
 				87F5FB8F23E58E5A001903F6 /* SubHandler.swift in Sources */,
 				8751008B23E82C8B0096498B /* Tuner.swift in Sources */,
 				875755A823E987E200A7A30A /* Connection.swift in Sources */,
@@ -791,16 +868,19 @@
 				874E372123EF1C6300545295 /* MyCalender.swift in Sources */,
 				874E371F23EF1B6B00545295 /* Alarm.swift in Sources */,
 				8751007D23E82BC20096498B /* CdPlayer.swift in Sources */,
+				A26E2C44264DAE6E00E95996 /* Entrypoint.swift in Sources */,
 				87F5FB8923E58926001903F6 /* MathHandler.swift in Sources */,
+				A26E2C41264DADF500E95996 /* BurgerShop.swift in Sources */,
 				87F5FB7E23E483FD001903F6 /* Tackling.swift in Sources */,
 				875755BB23E989F200A7A30A /* LSP_Problem.swift in Sources */,
 				87DBF67023E81F68003C899C /* Singletone.swift in Sources */,
 				87F5FB9523E58FA1001903F6 /* Receiver.swift in Sources */,
-				874E372323EF1F9100545295 /* MovingRobot.swift in Sources */,
 				874C95FB23DEB3520043CA08 /* Client.swift in Sources */,
 				87F5FB7123E46D5F001903F6 /* AdapterClient.swift in Sources */,
 				875755CF23E99B8B00A7A30A /* DIVP_Solution.swift in Sources */,
 				87F5FB9323E58EED001903F6 /* MulHandler.swift in Sources */,
+				A26E2C4D264DB42C00E95996 /* JobSeekers.swift in Sources */,
+				A26E2C4F264DB44500E95996 /* JobContacterFactory.swift in Sources */,
 				8751008E23E82E3F0096498B /* EntryPointFacade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

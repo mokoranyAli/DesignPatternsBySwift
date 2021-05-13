@@ -1,0 +1,16 @@
+/* 
+  BuilderDescription.strings
+  DesignPatterns
+
+  Created by Mohamed Korany on 5/13/21.
+  Copyright © 2021 Mohamed Korany Ali. All rights reserved.
+*/
+
+Builder helps us construct complicated objects in an incremental way instead of putting every setting into an initializer. It involves the following parts:
+
+Product — An object that we want to create.
+Builder — A component that will construct and return the Product.
+Director — A class that has a reference to the Builder and works with the returned Product.
+
+Link: 
+ https://medium.com/swift2go/builder-pattern-in-swift-for-beginners-79415d30872e

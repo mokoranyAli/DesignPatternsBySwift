@@ -1,0 +1,14 @@
+/* 
+  FactoryDescription.strings
+  DesignPatterns
+
+  Created by Mohamed Korany on 5/13/21.
+  Copyright © 2021 Mohamed Korany Ali. All rights reserved.
+*/
+
+ The factory pattern is a way to encapsulate the implementation details of creating objects, which adheres to a common base class or interface. The factory pattern allows the client that receives the created object to use the object return via the common interface without caring about the type of concrete object that is actually created.
+
+The factory pattern separates the implementation details of creating objects from the common interface that allows users to generically use the object. Let’s consider an example to make this idea more concrete.
+
+
+Link: https://medium.com/swift-programming/design-patterns-creational-patterns-factory-pattern-in-swift-d049af54235b
