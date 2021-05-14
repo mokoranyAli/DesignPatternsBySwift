@@ -1,0 +1,2 @@
+
+Iterator design pattern is a behavioural design pattern that lays down a way to access elements of a collection sequentially. It provides a way for us to implement the accessibility of elements without exposing the underlying representation of the container. A container can be a list, set, multiset, trees, and graphs, and by underlying representation we mean the way the container has been composed with its methods and properties.

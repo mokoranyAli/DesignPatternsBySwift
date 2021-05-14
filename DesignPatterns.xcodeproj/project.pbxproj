@@ -109,6 +109,10 @@
 		A26E2C64264DD2D700E95996 /* Rining.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C63264DD2D700E95996 /* Rining.swift */; };
 		A26E2C66264DD39600E95996 /* Silent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C65264DD39600E95996 /* Silent.swift */; };
 		A26E2C68264DD40800E95996 /* StateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C67264DD40800E95996 /* StateClient.swift */; };
+		A2E4F980264EABA700B3AB86 /* ItratorDescription in Resources */ = {isa = PBXBuildFile; fileRef = A2E4F97F264EABA700B3AB86 /* ItratorDescription */; };
+		A2E4F982264EAC2900B3AB86 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E4F981264EAC2900B3AB86 /* Emoji.swift */; };
+		A2E4F984264EAC3B00B3AB86 /* EmojiIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E4F983264EAC3B00B3AB86 /* EmojiIterator.swift */; };
+		A2E4F986264EAC7000B3AB86 /* IteratorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E4F985264EAC7000B3AB86 /* IteratorClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +241,10 @@
 		A26E2C63264DD2D700E95996 /* Rining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rining.swift; sourceTree = "<group>"; };
 		A26E2C65264DD39600E95996 /* Silent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silent.swift; sourceTree = "<group>"; };
 		A26E2C67264DD40800E95996 /* StateClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateClient.swift; sourceTree = "<group>"; };
+		A2E4F97F264EABA700B3AB86 /* ItratorDescription */ = {isa = PBXFileReference; lastKnownFileType = text; path = ItratorDescription; sourceTree = "<group>"; };
+		A2E4F981264EAC2900B3AB86 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		A2E4F983264EAC3B00B3AB86 /* EmojiIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiIterator.swift; sourceTree = "<group>"; };
+		A2E4F985264EAC7000B3AB86 /* IteratorClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +275,7 @@
 		870CB13023E0A6770022B7B4 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				A2E4F97E264EAB4000B3AB86 /* Iterator */,
 				A26E2C5C264DD10A00E95996 /* State */,
 				874E371723EF153400545295 /* Mediator */,
 				87F5FB8323E586FA001903F6 /* ChainOfResponsiblity */,
@@ -714,6 +723,17 @@
 			path = State;
 			sourceTree = "<group>";
 		};
+		A2E4F97E264EAB4000B3AB86 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				A2E4F97F264EABA700B3AB86 /* ItratorDescription */,
+				A2E4F981264EAC2900B3AB86 /* Emoji.swift */,
+				A2E4F983264EAC3B00B3AB86 /* EmojiIterator.swift */,
+				A2E4F985264EAC7000B3AB86 /* IteratorClient.swift */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -827,6 +847,7 @@
 				87F5FB8723E58786001903F6 /* DiscriptionCoR in Resources */,
 				87DBF67223E81FEE003C899C /* DeiscripSingletone in Resources */,
 				A26E2C57264DBBB200E95996 /* Description.strings in Resources */,
+				A2E4F980264EABA700B3AB86 /* ItratorDescription in Resources */,
 				875755CB23E9998C00A7A30A /* Description_DIVP in Resources */,
 				874C95C423DEAFEA0043CA08 /* Main.storyboard in Resources */,
 				875755C223E996D300A7A30A /* description_ISP in Resources */,
@@ -869,10 +890,12 @@
 				87F5FB8D23E58992001903F6 /* AddHandler.swift in Sources */,
 				8751008523E82C430096498B /* Projector.swift in Sources */,
 				A26E2C60264DD27700E95996 /* MobileAlertState.swift in Sources */,
+				A2E4F986264EAC7000B3AB86 /* IteratorClient.swift in Sources */,
 				875755C623E9981B00A7A30A /* ISP_Solution.swift in Sources */,
 				874C95C123DEAFEA0043CA08 /* ViewController.swift in Sources */,
 				874C95F523DEB2460043CA08 /* Abstract Factory.swift in Sources */,
 				875755B223E987E200A7A30A /* OCP_Solution.swift in Sources */,
+				A2E4F982264EAC2900B3AB86 /* Emoji.swift in Sources */,
 				A26E2C3B264DAD5500E95996 /* Product.swift in Sources */,
 				874C95BD23DEAFEA0043CA08 /* AppDelegate.swift in Sources */,
 				87F5FB8223E48596001903F6 /* CommandClient.swift in Sources */,
@@ -894,6 +917,7 @@
 				87F5FB7A23E4820E001903F6 /* PlayReciever.swift in Sources */,
 				87F5FB8023E48498001903F6 /* JoystickInvoker.swift in Sources */,
 				87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */,
+				A2E4F984264EAC3B00B3AB86 /* EmojiIterator.swift in Sources */,
 				A26E2C4B264DB3F300E95996 /* Contact.swift in Sources */,
 				87DBF67423E82082003C899C /* SingletoneClient.swift in Sources */,
 				A26E2C47264DB39200E95996 /* JobContactProtocol.swift in Sources */,
