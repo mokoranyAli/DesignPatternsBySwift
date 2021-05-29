@@ -1,0 +1,6 @@
+
+Decorator is a structural pattern that allows adding new behaviors to objects dynamically by placing them inside special wrapper objects.
+
+ Decorator pattern is one of the widely used structural patterns. This pattern dynamically changes the functionality of an object at runtime without impacting the existing functionality of the objects. In short this pattern adds additional functionalities to the object by wrapping it.
+
+Using decorators you can wrap objects countless number of times since both target objects and decorators follow the same interface. The resulting object will get a stacking behavior of all wrappers.

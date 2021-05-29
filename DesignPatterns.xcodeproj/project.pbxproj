@@ -89,6 +89,13 @@
 		87F5FB9323E58EED001903F6 /* MulHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB9223E58EED001903F6 /* MulHandler.swift */; };
 		87F5FB9523E58FA1001903F6 /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB9423E58FA1001903F6 /* Receiver.swift */; };
 		87F5FB9723E59147001903F6 /* ClientCoR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5FB9623E59147001903F6 /* ClientCoR.swift */; };
+		A25C56BF2662B69700E6E890 /* DecoratorDescription in Resources */ = {isa = PBXBuildFile; fileRef = A25C56BE2662B69700E6E890 /* DecoratorDescription */; };
+		A25C56C12662B7DA00E6E890 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25C56C02662B7DA00E6E890 /* Sandwich.swift */; };
+		A25C56C32662B84600E6E890 /* BasicSandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25C56C22662B84600E6E890 /* BasicSandwich.swift */; };
+		A25C56C52662B8CA00E6E890 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25C56C42662B8CA00E6E890 /* Decorator.swift */; };
+		A25C56C72662B93600E6E890 /* Beef.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25C56C62662B93600E6E890 /* Beef.swift */; };
+		A25C56C92662BA0D00E6E890 /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25C56C82662BA0D00E6E890 /* Cheese.swift */; };
+		A25C56CB2662BA8400E6E890 /* DecoratorExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25C56CA2662BA8400E6E890 /* DecoratorExecutor.swift */; };
 		A26E2C3B264DAD5500E95996 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C3A264DAD5500E95996 /* Product.swift */; };
 		A26E2C3E264DAD9700E95996 /* HamburgerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C3D264DAD9700E95996 /* HamburgerBuilder.swift */; };
 		A26E2C41264DADF500E95996 /* BurgerShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E2C40264DADF500E95996 /* BurgerShop.swift */; };
@@ -221,6 +228,13 @@
 		87F5FB9223E58EED001903F6 /* MulHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulHandler.swift; sourceTree = "<group>"; };
 		87F5FB9423E58FA1001903F6 /* Receiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
 		87F5FB9623E59147001903F6 /* ClientCoR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCoR.swift; sourceTree = "<group>"; };
+		A25C56BE2662B69700E6E890 /* DecoratorDescription */ = {isa = PBXFileReference; lastKnownFileType = text; path = DecoratorDescription; sourceTree = "<group>"; };
+		A25C56C02662B7DA00E6E890 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		A25C56C22662B84600E6E890 /* BasicSandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSandwich.swift; sourceTree = "<group>"; };
+		A25C56C42662B8CA00E6E890 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		A25C56C62662B93600E6E890 /* Beef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beef.swift; sourceTree = "<group>"; };
+		A25C56C82662BA0D00E6E890 /* Cheese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheese.swift; sourceTree = "<group>"; };
+		A25C56CA2662BA8400E6E890 /* DecoratorExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorExecutor.swift; sourceTree = "<group>"; };
 		A26E2C3A264DAD5500E95996 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		A26E2C3D264DAD9700E95996 /* HamburgerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerBuilder.swift; sourceTree = "<group>"; };
 		A26E2C40264DADF500E95996 /* BurgerShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShop.swift; sourceTree = "<group>"; };
@@ -635,6 +649,13 @@
 		A25C56BD2662B4E500E6E890 /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				A25C56BE2662B69700E6E890 /* DecoratorDescription */,
+				A25C56C02662B7DA00E6E890 /* Sandwich.swift */,
+				A25C56C22662B84600E6E890 /* BasicSandwich.swift */,
+				A25C56C42662B8CA00E6E890 /* Decorator.swift */,
+				A25C56C62662B93600E6E890 /* Beef.swift */,
+				A25C56C82662BA0D00E6E890 /* Cheese.swift */,
+				A25C56CA2662BA8400E6E890 /* DecoratorExecutor.swift */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -866,6 +887,7 @@
 				87F5FB7623E4808B001903F6 /* CommandDescription in Resources */,
 				87F5FB5D23E31901001903F6 /* DescriptionProxy in Resources */,
 				87F5FB5223E30DB2001903F6 /* DescriptionStrategy in Resources */,
+				A25C56BF2662B69700E6E890 /* DecoratorDescription in Resources */,
 				A26E2C53264DB51500E95996 /* BuilderDescription in Resources */,
 				875755B923E989B500A7A30A /* description_LSP in Resources */,
 			);
@@ -904,11 +926,13 @@
 				874C95F523DEB2460043CA08 /* Abstract Factory.swift in Sources */,
 				875755B223E987E200A7A30A /* OCP_Solution.swift in Sources */,
 				A2E4F982264EAC2900B3AB86 /* Emoji.swift in Sources */,
+				A25C56CB2662BA8400E6E890 /* DecoratorExecutor.swift in Sources */,
 				A26E2C3B264DAD5500E95996 /* Product.swift in Sources */,
 				874C95BD23DEAFEA0043CA08 /* AppDelegate.swift in Sources */,
 				87F5FB8223E48596001903F6 /* CommandClient.swift in Sources */,
 				87F5FB8B23E58971001903F6 /* Request.swift in Sources */,
 				874E372923EF2B8F00545295 /* MediatorEntryPoint.swift in Sources */,
+				A25C56C12662B7DA00E6E890 /* Sandwich.swift in Sources */,
 				87F5FB6D23E461B6001903F6 /* EnglishAdaptee.swift in Sources */,
 				875755BD23E98B0B00A7A30A /* LSP_Solution.swift in Sources */,
 				8751008123E82C0C0096498B /* HomeTheaterFacade.swift in Sources */,
@@ -927,10 +951,12 @@
 				87F5FB5623E30E7C001903F6 /* Strategy_Impl.swift in Sources */,
 				A2E4F984264EAC3B00B3AB86 /* EmojiIterator.swift in Sources */,
 				A26E2C4B264DB3F300E95996 /* Contact.swift in Sources */,
+				A25C56C52662B8CA00E6E890 /* Decorator.swift in Sources */,
 				87DBF67423E82082003C899C /* SingletoneClient.swift in Sources */,
 				A26E2C47264DB39200E95996 /* JobContactProtocol.swift in Sources */,
 				874E372723EF282A00545295 /* DaysOfWeek.swift in Sources */,
 				87F5FB7823E481C5001903F6 /* Command.swift in Sources */,
+				A25C56C72662B93600E6E890 /* Beef.swift in Sources */,
 				87F5FB6523E31D6A001903F6 /* ClientProxy.swift in Sources */,
 				875755B023E987E200A7A30A /* OCP_Problem.swift in Sources */,
 				875755C423E9972400A7A30A /* ISP_Problem.swift in Sources */,
@@ -939,6 +965,7 @@
 				874E371D23EF19BD00545295 /* CoffeMachine.swift in Sources */,
 				874C95EF23DEB0FB0043CA08 /* Abstract Proudcts.swift in Sources */,
 				87F5FB5F23E31A27001903F6 /* IProxy.swift in Sources */,
+				A25C56C92662BA0D00E6E890 /* Cheese.swift in Sources */,
 				874C95BF23DEAFEA0043CA08 /* SceneDelegate.swift in Sources */,
 				87F5FB5823E30F8A001903F6 /* Shopping Card.swift in Sources */,
 				A26E2C3E264DAD9700E95996 /* HamburgerBuilder.swift in Sources */,
@@ -948,6 +975,7 @@
 				874C95F923DEB2F10043CA08 /* GUIBuilder.swift in Sources */,
 				87F5FB6323E31B2E001903F6 /* Proxy_Impl.swift in Sources */,
 				87F5FB6B23E46078001903F6 /* RussianTarget.swift in Sources */,
+				A25C56C32662B84600E6E890 /* BasicSandwich.swift in Sources */,
 				87F5FB8F23E58E5A001903F6 /* SubHandler.swift in Sources */,
 				8751008B23E82C8B0096498B /* Tuner.swift in Sources */,
 				875755A823E987E200A7A30A /* Connection.swift in Sources */,
