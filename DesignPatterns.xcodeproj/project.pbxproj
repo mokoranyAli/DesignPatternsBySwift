@@ -288,6 +288,7 @@
 		870CB13123E0A6820022B7B4 /* Structual */ = {
 			isa = PBXGroup;
 			children = (
+				A25C56BD2662B4E500E6E890 /* Decorator */,
 				8751007923E82B7B0096498B /* Facade */,
 				87F5FB6623E45C51001903F6 /* Adapter */,
 				87F5FB5B23E317E3001903F6 /* Proxy */,
@@ -629,6 +630,13 @@
 				87F5FB9623E59147001903F6 /* ClientCoR.swift */,
 			);
 			path = ChainOfResponsiblity;
+			sourceTree = "<group>";
+		};
+		A25C56BD2662B4E500E6E890 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 		A26E2C38264DACBB00E95996 /* Builder */ = {
